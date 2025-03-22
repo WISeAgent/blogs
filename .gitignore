@@ -1,2 +1,3 @@
-# exluce node_modules
+# exclude folders
 node_modules
+public
