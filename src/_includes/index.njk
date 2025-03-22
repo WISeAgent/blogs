@@ -1,9 +1,0 @@
----
-layout: base.njk
----
-<h2>{{ title }}</h2>
-<ul>
-{% for item in collections[category] %}
-    <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
-{% endfor %}
-</ul>
