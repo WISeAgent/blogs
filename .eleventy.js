@@ -3,7 +3,7 @@ module.exports = function (eleventyConfig) {
     return {
         dir: {
             input: "content", // Markdown files
-            output: "public", // Generated site
+            output: "docs", // Generated site
             includes: "../src/_includes" // Layouts
         }
     };

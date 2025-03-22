@@ -1,3 +1,10 @@
+---
+title: "The Neural Network Renaissance"
+date: 2025-03-16
+category: LinkedInPost
+parent: /LinkedInPost/AI/
+parentTitle: AI
+---
 # The Neural Network Renaissance
 
 Building on [AI Evolution Overview: The Spark of Curiosity](https://wiseagent.github.io/blogs/LinkedIN_post20250309.html)’s look at AI’s early days, let’s explore a turning point: the neural network resurgence. In the 1980s and 90s, these systems broke free from symbolic AI’s rigid rules, redefining how machines learn and engage with the world. For me, this era hit home—my Master’s research on artificial neural networks (ANNs) began here, sparking a lifelong fascination.
