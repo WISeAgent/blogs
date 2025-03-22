@@ -1,0 +1,12 @@
+---
+layout: base.njk
+---
+<h2>{{ title }}</h2>
+{{ content | safe }}
+
+<hr>
+
+{% if parent %}
+    <p><a href="{{ parent }}">Back to {{ parentTitle }}</a></p>
+{% endif %}
+<p><a href="/">Back to Home</a></p>
