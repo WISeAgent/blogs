@@ -1,3 +1,10 @@
+---
+title: "AI Evolution Overview: The Spark of Curiosity"
+date: 2025-03-09
+category: LinkedInPost
+parent: /LinkedInPost/AI/
+parentTitle: AI
+---
 # AI Evolution Overview: The Spark of Curiosity
 
 ![AI Milestones timeline](AI-timeline.png)

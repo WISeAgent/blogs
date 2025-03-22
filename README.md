@@ -3,8 +3,11 @@
 ## project setup
 
 ``` bash
+myrepo=blogs
+mkdir $myrepo && cd $myrepo
 npm init -y
 npm install --save-dev @11ty/eleventy
+
 ```
 Test and deploy
 1. Add sample content to `content/`.
