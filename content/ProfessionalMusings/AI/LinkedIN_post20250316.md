@@ -1,8 +1,9 @@
 ---
 title: "The Neural Network Renaissance"
 date: 2025-03-16
-category: LinkedInPost
-parent: /LinkedInPost/AI/
+layout: post.njk
+category: ProfessionalMusings
+parent: /ProfessionalMusings/AI/
 parentTitle: AI
 ---
 # The Neural Network Renaissance

@@ -1,7 +1,7 @@
 ---
-title: "LinkedIn Posts"
+title: "Life Hacks"
 layout: index.njk
-category: LinkedInPost
+category: LifeHacks
 parent: /
 parentTitle: Home
 ---

@@ -2,8 +2,8 @@
 title: "AI Evolution Overview: The Spark of Curiosity"
 date: 2025-03-09
 layout: post.njk
-category: LinkedInPost
-parent: /LinkedInPost/AI/
+category: ProfessionalMusings
+parent: /ProfessionalMusings/AI/
 parentTitle: AI
 ---
 # AI Evolution Overview: The Spark of Curiosity
