@@ -1,8 +1,8 @@
 ---
-title: "Machine Learning Takes the Wheel: The AI Revolution"
+title: "TBA"
 date: 2025-03-22
 layout: post.njk
-category: LinkedInPost
-parent: /LinkedInPost/AI/
-parentTitle: AI
+category: TechSavvy
+parent: /TechSavvy/AWS/
+parentTitle: AWS
 ---
