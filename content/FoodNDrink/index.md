@@ -1,7 +1,7 @@
 ---
-title: "LinkedIn Posts"
+title: "Food & Drink"
 layout: index.njk
-category: LinkedInPost
+category: FoodNDrink
 parent: /
 parentTitle: Home
 ---

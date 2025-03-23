@@ -1,10 +1,12 @@
 ---
 title: "Machine Learning Takes the Wheel: The AI Revolution"
 date: 2025-03-22
-category: LinkedInPost
-parent: /LinkedInPost/AI/
+layout: post.njk
+category: ProfessionalMusings
+parent: /ProfessionalMusings/AI/
 parentTitle: AI
 ---
+
 # Machine Learning Takes the Wheel: The AI Revolution
 
 In our journey through AI’s evolution, we've explored its symbolic beginnings and neural networks revival. Now, we arrive at the Machine Learning Revolution—which has redefined what machines can learn, perceive, and achieve.

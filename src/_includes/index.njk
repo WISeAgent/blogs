@@ -2,8 +2,22 @@
 layout: base.njk
 ---
 <h2>{{ title }}</h2>
-<ul>
-{% for item in collections[category] %}
-    <li><a href="{{ item.url | url }}">{{ item.data.title }}</a></li>
-{% endfor %}
-</ul>
+
+{% macro renderTree(node, level = 0) %}
+    {% if node %}
+        <ul class="tree-view level-{{ level }}">
+        {% for key, item in node %}
+            <li>
+                {% if item.isLeaf %}
+                    <a href="{{ item.data.url | url }}">{{ item.data.title }}</a>
+                {% else %}
+                    <span class="folder">{{ item.name }}</span>
+                    {{ renderTree(item.children, level + 1) | safe }}
+                {% endif %}
+            </li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+{% endmacro %}
+
+{{ renderTree(collections[category].tree) | safe }}

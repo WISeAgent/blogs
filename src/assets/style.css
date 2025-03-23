@@ -104,6 +104,43 @@ h2 {
     text-decoration: underline;
 }
 
+/* Tree View Styles */
+.tree-view {
+    list-style: none;
+    padding-left: 1.5em;
+    margin: 0.5em 0;
+}
+
+.tree-view li {
+    position: relative;
+    padding: 0.3em 0;
+}
+
+.tree-view li::before {
+    content: "├─";
+    position: absolute;
+    left: -1.5em;
+    color: #666;
+}
+
+.tree-view li:last-child::before {
+    content: "└─";
+}
+
+.folder {
+    font-weight: bold;
+    color: #2c3e50;
+    cursor: default;
+}
+
+.level-0 {
+    padding-left: 0;
+}
+
+.level-1 { margin-left: 1.5em; }
+.level-2 { margin-left: 3em; }
+.level-3 { margin-left: 4.5em; }
+
 /* Responsive design */
 @media (max-width: 768px) {
     body {

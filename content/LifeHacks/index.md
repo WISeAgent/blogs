@@ -1,7 +1,7 @@
 ---
-title: "Knowledge Base"
+title: "Life Hacks"
 layout: index.njk
-category: KnowledgeBase
+category: LifeHacks
 parent: /
 parentTitle: Home
 ---

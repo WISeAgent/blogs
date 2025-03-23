@@ -1,4 +1,13 @@
-# Calico Crash Course
+---
+title: "Kubertnetes Calico Crash Course"
+date: 2025-03-23
+layout: post.njk
+category: KnowledgeBase
+parent: /KnowledgeBase/kubertnetes/
+parentTitle: kubertnetes
+---
+
+# Kubertnetes Calico Crash Course
 
 ## Table of Contents
 1. [Introduction](#introduction)  
