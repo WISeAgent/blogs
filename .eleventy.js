@@ -21,12 +21,15 @@ module.exports = function (eleventyConfig) {
     // Apply custom configurations
     customConfig(eleventyConfig);
 
+    // Set pathPrefix
+    const pathPrefix = "/blogs/";
+
     return {
         dir: {
             input: "content", // Markdown files
             output: "docs", // Generated site
             includes: "../src/_includes" // Layouts
         },
-        pathPrefix: "/blogs/" // Add this line to set the base path
+        pathPrefix: pathPrefix
     };
 };
