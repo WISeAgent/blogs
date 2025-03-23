@@ -18,7 +18,7 @@ module.exports = function (eleventyConfig) {
                 `!content/${category}/index.md`,
                 `!content/${category}/**/index.md`
             ]).filter(post => {
-                const isIndex = post.fileSlug === '' || post.fileSlug === 'index';
+                const isIndex = require('path').basename(post.inputPath) === 'index.md';;
                 return post.data && post.data.category === category && !isIndex;
             });
             
