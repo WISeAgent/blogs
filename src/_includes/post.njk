@@ -1,12 +1,18 @@
 ---
 layout: base.njk
 ---
-<h2>{{ title }}</h2>
-{{ content | safe }}
+<article class="post-content">
+    <header class="post-header">
+        <h1>{{ title }}</h1>
+        <time datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time>
+    </header>
 
-<hr>
+    {{ content | safe }}
 
-{% if parent %}
-    <p><a href="{{ parent }}">Back to {{ parentTitle }}</a></p>
-{% endif %}
-<p><a href="/">Back to Home</a></p>
+    <nav class="post-navigation">
+        {% if parent %}
+        <a href="{{ parent | url }}" class="parent-link">← Back to {{ parentTitle }}</a> | 
+        {% endif %}
+        <a href="{{ '/' | url }}" class="home-link">Back to Home ↑</a>
+    </nav>
+</article>

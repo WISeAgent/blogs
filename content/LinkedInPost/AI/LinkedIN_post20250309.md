@@ -1,14 +1,14 @@
 ---
 title: "AI Evolution Overview: The Spark of Curiosity"
 date: 2025-03-09
+layout: post.njk
 category: LinkedInPost
 parent: /LinkedInPost/AI/
 parentTitle: AI
 ---
 # AI Evolution Overview: The Spark of Curiosity
 
-![AI Milestones timeline](/assets/LinkedInPost/AI-timeline.png)
-
+{% img "/assets/LinkedInPost/AI-timeline.png", "AI Milestones timeline" %}
 During my Master’s research on artificial neural networks (ANNs) thirty years ago, I first immersed myself in AI—a field where the future was rapidly unfolding. Now, returning after a long hiatus, I'm inspired by the groundbreaking advances and profound social impact of AI. Motivated by these breakthroughs, I’ve decided to share this series to explore AI’s evolution—from its early theoretical roots to today’s transformative innovations.
 
 ## Milestone Snapshots
@@ -36,7 +36,7 @@ The 2010s witnessed a deep learning revolution powered by GPU computing and mass
 
 **2020s: Generative AI Revolution**  
 Today, generative models such as transformers and diffusion models are redefining AI’s potential. Tools like ChatGPT and DALL-E are not only reshaping creative industries but also opening new avenues for human-AI collaboration, marking a revolutionary leap in the field.  
-<img src="/assets/LinkedInPost/UTAS_MTech-ANN.png" alt="drawing" style="width:200px;"/>
+{% img "/assets/LinkedInPost/UTAS_MTech-ANN.png", "UTAS_MTech-ANN", "width:200px" %}
 
 **Join the Conversation:**  
 Which early AI idea—symbolic reasoning or expert systems—captivates you most? Share your thoughts below!
