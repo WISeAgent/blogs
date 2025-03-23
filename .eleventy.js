@@ -18,8 +18,9 @@ module.exports = function (eleventyConfig) {
                 `!content/${category}/index.md`,
                 `!content/${category}/**/index.md`
             ]).filter(post => {
-                const isIndex = require('path').basename(post.inputPath) === 'index.md';;
-                return post.data && post.data.category === category && !isIndex;
+                const isIndex = require('path').basename(post.inputPath) === 'index.md';
+                const match = post.data && post.data.category === category && !isIndex;
+                return match;
             });
             
             // Create a tree structure without circular references
@@ -34,7 +35,6 @@ module.exports = function (eleventyConfig) {
                 const lastIndex = pathSegments.length - 1;
                 
                 pathSegments.forEach((segment, index) => {
-                    // Only store necessary data to avoid circular references
                     if (!current[segment]) {
                         current[segment] = {
                             name: segment,
@@ -49,7 +49,7 @@ module.exports = function (eleventyConfig) {
                     current = current[segment].children;
                 });
             });
-    
+
             // For debugging
             try {
                 console.log(`Tree for ${category}:`, JSON.stringify(tree, null, 2));
