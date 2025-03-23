@@ -7,6 +7,15 @@ permissions:
     contents: write
     pages: write
 jobs:
+  delete-branch:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete branch
+        uses: SvanBoxel/delete-merged-branch@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
     build-and-deploy:
         if: github.event.pull_request.merged == true
         runs-on: ubuntu-latest
