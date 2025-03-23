@@ -4,6 +4,11 @@ module.exports = function (eleventyConfig) {
     // Copy static assets to the correct location
     eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
 
+    // Add shortcode for images with pathPrefix
+    eleventyConfig.addShortcode("img", function(src, alt, style) {
+        return `<img src="${eleventyConfig.getFilter("url")(src)}" alt="${alt}" ${style ? `style="${style}"` : ''}>`;
+    });
+
     // Create a collection for LinkedIn posts
     eleventyConfig.addCollection("LinkedInPost", function(collectionApi) {
         const linkedInPosts = collectionApi.getFilteredByGlob("content/LinkedInPost/**/*.md");
@@ -30,6 +35,6 @@ module.exports = function (eleventyConfig) {
             output: "docs", // Generated site
             includes: "../src/_includes" // Layouts
         },
-        pathPrefix: pathPrefix
+        pathPrefix: "/blogs/"
     };
 };

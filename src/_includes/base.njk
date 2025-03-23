@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>{{ title or "WISeAgent Blogs" }}</title>
-    <link rel="stylesheet" href="{{ pathPrefix }}assets/style.css">
+    <link rel="stylesheet" href="{{ '/assets/style.css' | url }}">
 </head>
 <body>
     <header>
-        <h1><a href="{{ pathPrefix }}">WISeAgent Blogs</a></h1>
-        {% if parent %}<a href="{{ pathPrefix }}{{ parent }}">Back to {{ parentTitle }}</a>{% endif %}
+        <h1><a href="{{ '/' | url }}">WISeAgent Blogs</a></h1>
+        {% if parent %}<a href="{{ parent | url }}">Back to {{ parentTitle }}</a>{% endif %}
     </header>
     <main>
         {{ content | safe }}
