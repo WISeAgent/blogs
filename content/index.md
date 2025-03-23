@@ -1,7 +1,7 @@
 ---
-   title: "WISeAgent Blogs"
-   layout: base.njk
+title: "WISeAgent Blogs"
+layout: base.njk
 ---
 ## Categories
-- [LinkedIn Posts](/LinkedInPost/)
-- [Knowledge Base](/KnowledgeBase/)
+- [LinkedIn Posts]({{ '/LinkedInPost/' | url }})
+- [Knowledge Base]({{ '/KnowledgeBase/' | url }})
