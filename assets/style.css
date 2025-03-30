@@ -145,22 +145,6 @@ h2 {
     top: 0.3em;
 }
 
-.tree-view li:last-child::before {
-    height: 1em;
-}
-
-.tree-view li:last-child::after {
-    top: 0.3em;
-}
-
-.tree-view li:last-child::before {
-    height: 1em;
-}
-
-.tree-view li:last-child::after {
-    top: 0.3em;
-}
-
 .folder {
     font-weight: bold;
     color: #2c3e50;
