@@ -1,7 +1,7 @@
 ---
-title: "Food & Drink"
+title: "Lifestyle"
 layout: index.njk
-category: FoodNDrink
+category: Lifestyle
 parent: /
 parentTitle: Home
 ---
