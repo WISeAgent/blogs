@@ -2,9 +2,9 @@
 title: "Tamago Sando: 7-Eleven-Style Egg Salad Sandwich"
 date: 2025-03-09
 layout: post.njk
-category: FoodNDrink
-parent: /FoodNDrink/Recipes/
-parentTitle: /Recipes/
+category: Lifestyle
+parent: /Lifestyle/Recipes/
+parentTitle: /Lifestyle/Recipes/
 ---
 # Tamago Sando: 7-Eleven-Style Egg Salad Sandwich
 
