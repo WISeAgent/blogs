@@ -38,7 +38,7 @@ Unlike symbolic AI’s stiff frameworks, neural networks learned from examples, 
 
 The impact was swift. Neural networks powered handwriting recognition, revolutionizing mail sorting, while early voice systems hinted at future assistants. These weren’t just theories—they solved problems, fueling innovation.
 
-{% img "/assets/LinkedInPost/ANN_samplepage.png", "ANN_samplepage", "width:200px" %}
+{% img "/assets/ProfessionalMusings/ANN_samplepage.png", "ANN_samplepage", "width:200px" %}
 ---
 
 ## Up Next

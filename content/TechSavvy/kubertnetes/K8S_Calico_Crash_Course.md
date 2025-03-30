@@ -2,11 +2,15 @@
 title: "Kubertnetes Calico Crash Course"
 date: 2025-03-23
 layout: post.njk
-category: KnowledgeBase
-parent: /KnowledgeBase/kubertnetes/
+category: TechSavvy
+parent: /TechSavvy/kubertnetes/
 parentTitle: kubertnetes
 ---
+TL;DR, A picture is worth a thousand words.
+{% img "/assets/TechSavvy/Calico.png" "Kubertnetes Calico in a glance" %}
 
+Here is the longer version...
+---
 # Kubertnetes Calico Crash Course
 
 ## Table of Contents
@@ -69,7 +73,7 @@ metadata:
   name: default-pool
 spec:
   cidr: 192.168.0.0/16
-  ipipMode: CrossSubnet
+  ipMode: CrossSubnet
   natOutgoing: true
 ```
 
