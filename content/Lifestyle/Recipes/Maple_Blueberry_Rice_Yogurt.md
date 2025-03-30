@@ -2,9 +2,9 @@
 title: "Maple Blueberry Rice Yogurt"
 date: 2025-03-09
 layout: post.njk
-category: FoodNDrink
-parent: /FoodNDrink/Recipes/
-parentTitle: /Recipes/
+category: Lifestyle
+parent: /Lifestyle/Recipes/
+parentTitle: /Lifestyle/Recipes/
 ---
 # Maple Blueberry Rice Yogurt
 
