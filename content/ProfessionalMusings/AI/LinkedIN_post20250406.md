@@ -1,3 +1,11 @@
+---
+title: "Generative AI: The Next Frontier of the AI Revolution"
+date: 2025-03-30
+layout: post.njk
+category: ProfessionalMusings
+parent: /ProfessionalMusings/AI/
+parentTitle: AI
+---
 # Generative AI: The Next Frontier of the AI Revolution
 
 In our AI evolution series, we've journeyed from symbolic systems and early neural networks through machine learning and deep learning. Now we arrive at generative AI—a true paradigm shift where machines don't just analyze data; they create original content. This transformation is redefining our relationship with technology across industries, creativity, and human-machine collaboration.
