@@ -6,15 +6,24 @@ on:
 permissions:
     contents: write
     pages: write
+    pull-requests: write
 jobs:
   delete-branch:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
-      - name: Delete branch
-        uses: SvanBoxel/delete-merged-branch@main
+      - name: Checkout Code
+        uses: actions/checkout@v3
+      - name: Delete Merged Branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          branch_name=$(echo ${{ github.event.pull_request.head.ref }})
+          repo_full_name=$(echo ${{ github.repository }})
+          curl -X DELETE \
+            -H "Authorization: token $GITHUB_TOKEN" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/$repo_full_name/git/refs/heads/$branch_name
 
   build-and-deploy:
       if: github.event.pull_request.merged == true
