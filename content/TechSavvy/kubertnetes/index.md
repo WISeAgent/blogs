@@ -3,5 +3,5 @@ title: "Kubertnetes"
 layout: index.njk
 category: TechSavvy
 parent: /TechSavvy/
-parentTitle: Tech Savvy
+parentTitle: "Tech Savvy"
 ---

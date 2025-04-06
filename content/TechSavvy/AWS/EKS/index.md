@@ -2,6 +2,6 @@
 title: "EKS"
 layout: index.njk
 category: TechSavvy
-parent: /TechSavvy/AWS
-parentTitle: AWS
+parent: /TechSavvy/AWS/ESK
+parentTitle: ESK
 ---
