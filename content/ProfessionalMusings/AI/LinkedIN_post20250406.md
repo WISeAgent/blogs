@@ -1,6 +1,6 @@
 ---
 title: "Generative AI: The Next Frontier of the AI Revolution"
-date: 2025-03-30
+date: 2025-04-06
 layout: post.njk
 category: ProfessionalMusings
 parent: /ProfessionalMusings/AI/
