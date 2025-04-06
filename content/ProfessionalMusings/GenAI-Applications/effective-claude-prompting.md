@@ -1,3 +1,11 @@
+---
+title: "Mastering the Art of Claude Prompting: From Basic Requests to Complex Solutions"
+date: 2025-03-30
+layout: post.njk
+category: ProfessionalMusings
+parent: /ProfessionalMusings/AI/
+parentTitle: AI
+---
 # Mastering the Art of Claude Prompting: From Basic Requests to Complex Solutions
 
 ## Introduction

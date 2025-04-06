@@ -3,8 +3,8 @@ title: "Crafting the Perfect Prompt with Generative AI: A Step-by-Step Guide"
 date: 2025-03-30
 layout: post.njk
 category: ProfessionalMusings
-parent: /ProfessionalMusings/AI/
-parentTitle: AI
+parent: /ProfessionalMusings/GenAI-Applications/
+parentTitle: GenAI-Applications
 ---
 # Crafting the Perfect Prompt with Generative AI: A Step-by-Step Guide
 
