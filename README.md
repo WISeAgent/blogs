@@ -1,115 +1,99 @@
-# WISeAgent Blogs
+# WISeAgent Documentation
 
-## project setup
+Documentation and blog site built with [Docusaurus](https://docusaurus.io).
+
+## Project Setup
 
 ```bash
-myrepo=blogs
-mkdir $myrepo && cd $myrepo
-npm init -y
-npm install --save-dev @11ty/eleventy
+# Create a new Docusaurus site
+npx create-docusaurus@latest docs classic
+
+# Navigate to project directory
+cd docs
+
+# Install dependencies
+npm install
 ```
 
-## Test and deploy
-1. Add sample content to `content/`.
-2. Run locally: `npx @11ty/eleventy --serve` or `npx eleventy`.
-3. Commit and push to `$myrepo`.
-4. Create a PR to `main`; merge it to trigger CI/CD.
+## Development
 
-## Add Category, Subcategory and Pages Manually
-
-### Adding a Category
-
-1. Create a new directory under the `content` folder with the name of the category.
-2. Add an `index.md` file in the new directory with the following frontmatter:
-
-```yaml
----
-title: "Category Title"
-layout: index.njk
-category: CategoryName
-parent: /
-parentTitle: Home
----
+Start the development server:
+```bash
+npm run start
 ```
 
-### Adding a Subcategory
-
-1. Create a new directory under the desired category directory.
-2. Add an `index.md` file in the new subcategory directory with the following frontmatter:
-
-```yaml
----
-title: "Subcategory Title"
-layout: index.njk
-category: CategoryName
-parent: /CategoryName/
-parentTitle: Category Title
----
+Build for production:
+```bash
+npm run build
+npm run serve # Test the production build
 ```
 
-### Adding a Page
+## Content Organization
 
-1. Create a new Markdown file in the desired category or subcategory directory.
-2. Add the following frontmatter to the new Markdown file:
+### Documentation
 
-```yaml
+Documentation is organized in the `docs/` directory:
+
+1. Create a new document in the appropriate category folder:
+```md
 ---
-title: "Page Title"
+title: Page Title
+sidebar_label: Navigation Label
+sidebar_position: 1
+description: Brief description for SEO
+---
+
+# Page Title
+Your content here...
+```
+
+2. Update `sidebars.js` if needed to customize the documentation navigation.
+
+### Blog Posts
+
+Blog posts are stored in `blog/` using a date-based format:
+
+1. Create a new blog post:
+```md
+---
+title: Post Title
 date: YYYY-MM-DD
-layout: post.njk
-category: CategoryName
-parent: /CategoryName/SubcategoryName/
-parentTitle: Subcategory Title
+authors:
+  - wiseagent
+slug: url-friendly-title
+tags:
+  - tag1
+  - tag2
 ---
+
+# Post Title
+
+Brief introduction
+
+<!--truncate-->
+
+Rest of your content...
 ```
 
-3. Add your content below the frontmatter.
+The following blog post directories are supported:
+- `blog/` - For standalone blog posts
+- `blog/YYYY/MM/` - For year/month organized posts
 
-### Example
+### Static Assets
 
-For a new category "Tech Savvy":
+- Place images in `static/img/`
+- Reference images in markdown: `![alt text](/img/filename.png)`
+- Store other static files in `static/`
 
-1. Create `content/TechSavvy/index.md`:
+### Authors
 
+Authors are configured in `blog/authors.yml`:
 ```yaml
----
-title: "Tech Savvy"
-layout: index.njk
-category: TechSavvy
-parent: /
-parentTitle: Home
----
+wiseagent:
+  name: 'WISeAgent'
+  title: 'AI and Tech Enthusiast'
+  url: 'https://github.com/WISeAgent'
+  image_url: '/img/logo.svg'
 ```
 
-For a subcategory "AWS" under "Tech Savvy":
-
-1. Create `content/TechSavvy/AWS/index.md`:
-
-```yaml
----
-title: "AWS"
-layout: index.njk
-category: TechSavvy
-parent: /TechSavvy/
-parentTitle: Tech Savvy
----
-```
-
-For a page "AWS CloudFormation Functions" under "AWS":
-
-1. Create `content/TechSavvy/AWS/AWS_CFN_Functions.md`:
-
-```yaml
----
-title: "AWS CloudFormation Functions"
-date: 2025-03-22
-layout: post.njk
-category: TechSavvy
-parent: /TechSavvy/AWS/
-parentTitle: AWS
----
-```
-
-Add your content below the frontmatter.
-
-By following these steps, you can easily add new categories, subcategories, and pages to your blog.
+Reference authors in blog posts using their ID (e.g., `wiseagent`).

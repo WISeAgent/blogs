@@ -1,13 +1,14 @@
 ---
 title: "Kubectl"
 date: 2025-03-23
-layout: post.njk
-category: TechSavvy
-parent: /TechSavvy/kubertnetes/
-parentTitle: kubertnetes
+slug: kubectl
+tags:
+  - TechSavvy
+  - Kubernetes
 ---
+
 TL;DR, A picture is worth a thousand words.
-{% img "/assets/TechSavvy/Kubectl Commands-S.png" "Kubectl Commands" %}
+![Kubectl Commands](/img/TechSavvy/Kubectl Commands-S.png)
 Here is the longer version...
 ---
 # Kubectl Command Tutorial
