@@ -1,115 +1,103 @@
-# WISeAgent Blogs
+# WISeAgent Documentation and Blog
 
-## project setup
+A comprehensive documentation and blog platform built with [Docusaurus v2](https://docusaurus.io/), featuring technical guides, AI/ML insights, and lifestyle content. This site uses Docusaurus's classic template with enhanced blog and documentation features.
+
+## Project Structure
+```
+├── blog/     # Blog posts about AI, tech trends
+├── docs/     # Technical documentation, guides, and etc content
+├── src/      # React components and custom styles
+└── static/   # Static assets (images, files)
+```
+
+## Prerequisites
+
+- Node.js (v16.14 or above)
+- Package manager (yarn v1.22+ or npm v8+)
+- Git (v2.32+)
+
+## Package Dependencies
+
+### Core Dependencies
+- `@docusaurus/core` (v3.x) - Docusaurus core framework
+- `@docusaurus/preset-classic` - Standard feature preset including:
+  - Documentation (powered by MDX)
+  - Blog (with tags and pagination)
+  - Theme (with light/dark mode)
+  - Search functionality
+- `react` & `react-dom` (v18.x)
+- `prism-react-renderer` - Syntax highlighting
+
+### Development Dependencies
+- `@docusaurus/module-type-aliases`
+- `@docusaurus/types`
+
+## Installation
+
+### Quick Setup
 
 ```bash
-myrepo=blogs
-mkdir $myrepo && cd $myrepo
-npm init -y
-npm install --save-dev @11ty/eleventy
+# Clone the repository
+git clone https://github.com/WISeAgent/blogs.git
+cd blogs
+
+# Using yarn (recommended)
+yarn install
+
+# Or using npm
+npm install
+
+# Install additional dependencies if needed
+yarn add @docusaurus/core@latest @docusaurus/preset-classic@latest
+yarn add prism-react-renderer
 ```
 
-## Test and deploy
-1. Add sample content to `content/`.
-2. Run locally: `npx @11ty/eleventy --serve` or `npx eleventy`.
-3. Commit and push to `$myrepo`.
-4. Create a PR to `main`; merge it to trigger CI/CD.
+### Manual Setup (Fresh Installation)
 
-## Add Category, Subcategory and Pages Manually
+```bash
+# Create a new Docusaurus site
+npx create-docusaurus@latest my-website classic
 
-### Adding a Category
+# Navigate to project directory
+cd my-website
 
-1. Create a new directory under the `content` folder with the name of the category.
-2. Add an `index.md` file in the new directory with the following frontmatter:
+# Install required dependencies
+yarn add @docusaurus/core @docusaurus/preset-classic
+yarn add prism-react-renderer
+yarn add @docusaurus/theme-search-algolia  # Optional: for search functionality
 
-```yaml
----
-title: "Category Title"
-layout: index.njk
-category: CategoryName
-parent: /
-parentTitle: Home
----
+# Or using npm
+npm install @docusaurus/core @docusaurus/preset-classic
+npm install prism-react-renderer
+npm install @docusaurus/theme-search-algolia  # Optional: for search functionality
 ```
 
-### Adding a Subcategory
+## Local Development
 
-1. Create a new directory under the desired category directory.
-2. Add an `index.md` file in the new subcategory directory with the following frontmatter:
+Start the development server with hot-reload:
 
-```yaml
----
-title: "Subcategory Title"
-layout: index.njk
-category: CategoryName
-parent: /CategoryName/
-parentTitle: Category Title
----
+```bash
+# Using yarn (recommended)
+yarn start
+
+# Or using npm
+npm run start
 ```
 
-### Adding a Page
+The site will be available at [http://localhost:3000](http://localhost:3000)
 
-1. Create a new Markdown file in the desired category or subcategory directory.
-2. Add the following frontmatter to the new Markdown file:
+### Useful Commands
 
-```yaml
----
-title: "Page Title"
-date: YYYY-MM-DD
-layout: post.njk
-category: CategoryName
-parent: /CategoryName/SubcategoryName/
-parentTitle: Subcategory Title
----
+```bash
+# Clear Docusaurus cache (if you encounter build issues)
+yarn clear    # or npm run clear
+
+# Build the static site
+yarn build    # or npm run build
+
+# Serve the built site locally
+yarn serve    # or npm run serve
+
+# Deploy to GitHub Pages
+GIT_USER=<username> yarn deploy    # or npm run deploy
 ```
-
-3. Add your content below the frontmatter.
-
-### Example
-
-For a new category "Tech Savvy":
-
-1. Create `content/TechSavvy/index.md`:
-
-```yaml
----
-title: "Tech Savvy"
-layout: index.njk
-category: TechSavvy
-parent: /
-parentTitle: Home
----
-```
-
-For a subcategory "AWS" under "Tech Savvy":
-
-1. Create `content/TechSavvy/AWS/index.md`:
-
-```yaml
----
-title: "AWS"
-layout: index.njk
-category: TechSavvy
-parent: /TechSavvy/
-parentTitle: Tech Savvy
----
-```
-
-For a page "AWS CloudFormation Functions" under "AWS":
-
-1. Create `content/TechSavvy/AWS/AWS_CFN_Functions.md`:
-
-```yaml
----
-title: "AWS CloudFormation Functions"
-date: 2025-03-22
-layout: post.njk
-category: TechSavvy
-parent: /TechSavvy/AWS/
-parentTitle: AWS
----
-```
-
-Add your content below the frontmatter.
-
-By following these steps, you can easily add new categories, subcategories, and pages to your blog.
