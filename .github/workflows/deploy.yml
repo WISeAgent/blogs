@@ -1,12 +1,15 @@
 name: Deploy to GitHub Pages
+
 on:
     pull_request:
         types: [closed]
         branches: [main]
+
 permissions:
     contents: write
     pages: write
     pull-requests: write
+
 jobs:
   delete-branch:
     if: github.event.pull_request.merged == true
@@ -31,17 +34,25 @@ jobs:
       steps:
           - name: Checkout Code
             uses: actions/checkout@v3
+
           - name: Setup Node
             uses: actions/setup-node@v3
             with:
                 node-version: 18
+                cache: npm
+
           - name: Install Dependencies
-            run: npm install
+            run: npm ci
+
           - name: Build Site
-            run: npx @11ty/eleventy
+            run: npm run build
+
           - name: Deploy to GitHub Pages
             uses: peaceiris/actions-gh-pages@v3
             with:
                 github_token: ${{ secrets.GITHUB_TOKEN }}
-                publish_dir: ./docs
-                publish_mode: 'dir'
+                publish_dir: ./build  # Docusaurus builds to ./build instead of ./docs
+                publish_branch: gh-pages
+                user_name: 'github-actions[bot]'
+                user_email: 'github-actions[bot]@users.noreply.github.com'
+                force: true
