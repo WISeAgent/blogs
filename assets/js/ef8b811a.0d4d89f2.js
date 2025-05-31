@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[8947],{6600:e=>{e.exports=JSON.parse('{"authors":[{"name":"WISeAgent","title":"AI and Tech Enthusiast","url":"https://github.com/WISeAgent","imageURL":"/img/logo.svg","key":"wiseagent","page":null,"count":9}]}')}}]);
