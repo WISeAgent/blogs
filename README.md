@@ -101,3 +101,65 @@ yarn serve    # or npm run serve
 # Deploy to GitHub Pages
 GIT_USER=<username> yarn deploy    # or npm run deploy
 ```
+
+## Development Workflow
+
+### Local Testing Before PR
+
+Before submitting a Pull Request, ensure your changes pass all checks locally:
+
+```bash
+# Install required development tools
+npm install -g markdownlint-cli cspell
+
+# Run spell check
+cspell "**/*.{md,mdx}"
+
+# Run markdown linting
+markdownlint "**/*.md" --ignore node_modules
+
+# Build the site locally
+npm run build
+
+# Test the built site
+npm run serve
+```
+
+### Pull Request Workflow
+
+1. Create a new branch for your changes:
+```bash
+git checkout -b feature/your-feature-name
+```
+
+2. Make your changes and test locally using the commands above
+
+3. Commit and push your changes:
+```bash
+git add .
+git commit -m "description of your changes"
+git push origin feature/your-feature-name
+```
+
+4. Create a Pull Request on GitHub
+
+5. The GitHub Actions workflow will:
+   - Run spell checking on all markdown files
+   - Perform markdown linting
+   - Build and deploy the site when the PR is merged
+
+### Common Issues and Solutions
+
+- If spell check fails:
+  - Review the spell check output
+  - Add any legitimate technical terms to `.cspell.json`
+
+- If markdown lint fails:
+  - Check line lengths (should be ≤ 120 characters)
+  - Ensure proper heading hierarchy
+  - Verify list formatting
+
+- If build fails:
+  - Check console output for errors
+  - Verify all images and assets are committed
+  - Ensure all required dependencies are installed
