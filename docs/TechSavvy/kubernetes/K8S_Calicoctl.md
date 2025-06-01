@@ -6,7 +6,7 @@ sidebar_position: 3
 
 TL;DR, A picture is worth a thousand words.
 ```
-![Kubertnetes Calicoctl in a glance](/img/TechSavvy/Calicoctl.png)
+![Kubernetes Calicoctl in a glance](/img/TechSavvy/Calicoctl.png)
 ```
 Here is the longer version...
 ---

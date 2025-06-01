@@ -5,11 +5,11 @@ sidebar_position: 2
 ---
 
 TL;DR, A picture is worth a thousand words.
-![Kubertnetes Calico in a glance](/img/TechSavvy/Calico.png)
+![Kubernetes Calico in a glance](/img/TechSavvy/Calico.png)
 
 Here is the longer version...
 ---
-# Kubertnetes Calico Crash Course
+# Kubernetes Calico Crash Course
 
 ## Table of Contents
 1. [Introduction](#introduction)  
