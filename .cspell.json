@@ -41,7 +41,12 @@
     "kubecontrollersconfiguration",
     "clusterinformation",
     "confd",
-    "ipip"
+    "ipip",
+    "mindmap",
+    "LSTM",
+    "Autoencoders",
+    "stockouts",
+    "Overfitting"
   ],
   "ignorePaths": [
     "node_modules/**",
