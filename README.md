@@ -119,7 +119,7 @@ make spellcheck
 make lint
 
 # Start local development server
-make localdev
+make local
 
 # Run all checks and start server
 make all
