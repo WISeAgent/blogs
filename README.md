@@ -104,6 +104,30 @@ GIT_USER=<username> yarn deploy    # or npm run deploy
 
 ## Development Workflow
 
+### Using Make
+
+The project includes a Makefile for common development tasks:
+
+```bash
+# Install all dependencies
+make deps
+
+# Run spell check
+make spellcheck
+
+# Run markdown linting
+make lint
+
+# Start local development server
+make localdev
+
+# Run all checks and start server
+make all
+
+# See all available commands
+make help
+```
+
 ### Local Testing Before PR
 
 Before submitting a Pull Request, ensure your changes pass all checks locally:

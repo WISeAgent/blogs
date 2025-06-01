@@ -54,6 +54,13 @@ const config = {
           path: 'blog',
           routeBasePath: 'blog',
           include: ['2025/**/*.{md,mdx}', 'blog/authors.yml'],
+          showReadingTime: true,
+          blogDescription: 'A collection of professional insights and musings about technology, AI, and lifestyle.',
+          postsPerPage: 10,
+          sortPosts: 'descending',
+          blogSidebarTitle: 'Recent Posts',
+          blogSidebarCount: 10,
+          archiveBasePath: 'archive',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -80,7 +87,25 @@ const config = {
             position: 'left',
             label: 'Documentations',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'dropdown',
+            position: 'left',
+            label: 'Blog',
+            items: [
+              {
+                label: 'Recent Posts',
+                to: '/blog',
+              },
+              {
+                label: 'All Posts',
+                to: '/blog/archive',
+              },
+              {
+                label: 'Tags',
+                to: '/blog/tags',
+              },
+            ],
+          },
           {
             href: 'https://github.com/WISeAgent',
             label: 'WISeAgent',
@@ -107,6 +132,10 @@ const config = {
                 label: 'X',
                 href: 'https://x.com/docusaurus',
               },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/wiseagent/'
+              }            
             ],
           },
           {
