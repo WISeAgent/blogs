@@ -12,6 +12,42 @@ tags:
 
 # Generative AI: The Next Frontier of the AI Revolution
 
+``` mermaid
+mindmap
+  root((Artificial Intelligence (AI)))
+    Early Approaches [1950s-1960s]
+      Symbolic AI / Logic-Based AI
+        Expert Systems
+        Knowledge Representation & Reasoning
+      Early ANN [1940s-1950s]
+    Revival & Evolution [1980s-1990s]
+      Neural Networks Revival
+        Backpropagation
+        Perceptron Advances
+      Fuzzy Logic Systems
+      Evolutionary Computation
+    Machine Learning Expansion [1990s-2000s]
+      Supervised Learning
+        Regression
+        Classification
+        Ensemble Methods
+      Unsupervised Learning
+        Clustering
+        Dimensionality Reduction
+      Reinforcement Learning
+    Deep Learning Era [2010s]
+      Advanced Artificial Neural Networks
+        CNNs
+        RNNs (LSTM, GRU)
+        Autoencoders
+        Transformers (for NLP and beyond)
+      NLP & Computer Vision Techniques
+    Generative AI [2020s]
+      GANs
+      VAEs
+      Large Language Models (e.g., ChatGPT)
+
+```
 In our AI evolution series, we've journeyed from symbolic systems and early neural networks through machine learning and deep learning. Now we arrive at generative AI—a true paradigm shift where machines don't just analyze data; they create original content. This transformation is redefining our relationship with technology across industries, creativity, and human-machine collaboration.
 
 <!--truncate-->

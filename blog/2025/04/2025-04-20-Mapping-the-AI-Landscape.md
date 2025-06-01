@@ -2,35 +2,18 @@
 slug: mapping-the-ai-landscape
 title: "Mapping the AI Landscape: Beyond Generative AI"
 authors: [wiseagent]
-tags: [
-    ai-evolution,
-    machine-learning,
-    generative-ai,
-    predictive-ai,
-    deep-learning,
-    ai-strategy,
-    technology-leadership,
-    business-technology,
-    artificial-intelligence,
-    chatgpt,
-    dall-e,
-    neural-networks,
-    tech-trends,
-    enterprise-ai,
-    ai-implementation
-]
-description: "A comprehensive guide for tech leaders navigating the AI ecosystem, comparing predictive and generative AI approaches, with practical implementation strategies and risk management insights."
-image: /img/blog/ai-landscape-map.png
-date: 2025-04-20
+tags: [ai-evolution, machine-learning, generative-ai, predictive-ai deep-learning]
 ---
 # Mapping the AI Landscape: Beyond Generative AI
 
 *A comprehensive guide for tech leaders navigating the AI ecosystem*
 
+![The Evolution of Artificial Intelligence](/img/blog/AI_landscape.png)
+*Figure: A comprehensive overview of AI evolution from early approaches to modern generative and predictive systems*
+
 ---
-
 ## The ChatGPT Phenomenon: Missing the Bigger Picture
-
+<!--truncate-->
 "Did you see what ChatGPT just did?" "I heard DALL·E can design your next logo." "Should we be using AI for everything now?"
 
 If your Slack channels sound like this, you're experiencing the generative AI gold rush firsthand. But here's what most tech leaders miss: while everyone's mesmerized by ChatGPT and DALL·E, they represent just one branch of a much larger AI tree. Understanding the complete landscape isn't just academic—it's strategic. The companies making smart AI investments are those who see beyond the hype and match the right AI approach to the right business problem.
