@@ -60,7 +60,6 @@ const config = {
           sortPosts: 'descending',
           blogSidebarTitle: 'Recent Posts',
           blogSidebarCount: 10,
-          archiveBasePath: 'archive',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -82,27 +81,108 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar', 
+            type: 'dropdown',
             position: 'left',
-            label: 'Documentations',
+            label: 'Tech Hub',
+            items: [
+              {
+                type: 'docSidebar',
+                sidebarId: 'tutorialSidebar',
+                label: 'Documentation Home',
+              },
+              {
+                type: 'html',
+                value: '<hr style="margin: 0.3rem 0;">',
+              },
+              {
+                label: '☁️ AWS & Cloud',
+                to: '/docs/AWS',
+              },
+              {
+                label: '🐳 Docker',
+                to: '/docs/docker',
+              },
+              {
+                label: '⚙️ Kubernetes',
+                to: '/docs/TechSavvy/kubernetes',
+              },
+              {
+                type: 'html',
+                value: '<hr style="margin: 0.3rem 0;">',
+              },
+              {
+                label: '📚 View All Tech Docs',
+                to: '/docs/TechSavvy',
+              },
+            ],
           },
           {
             type: 'dropdown',
             position: 'left',
-            label: 'Blog',
+            label: 'Lifestyle',
             items: [
               {
-                label: 'Recent Posts',
+                label: '🍳 Recipes',
+                to: '/docs/Lifestyle/Recipes',
+              },
+              {
+                label: '☕ Drinks & Coffee',
+                to: '/docs/Lifestyle/Drinks',
+              },
+              {
+                label: '🎯 Life Hacks',
+                to: '/docs/LifeHacks',
+              },
+              {
+                label: '✈️ Travel Tips',
+                to: '/docs/TravelHacks',
+              },
+              {
+                type: 'html',
+                value: '<hr style="margin: 0.3rem 0;">',
+              },
+              {
+                label: '📖 View All Guides',
+                to: '/docs/Lifestyle',
+              },
+            ],
+          },
+          {
+            type: 'dropdown',
+            position: 'left',
+            label: 'AI & Tech Blog',
+            items: [
+              {
+                label: '🔥 Latest Posts',
                 to: '/blog',
               },
               {
-                label: 'All Posts',
-                to: '/blog/archive',
+                type: 'html',
+                value: '<hr style="margin: 0.3rem 0;">',
               },
               {
-                label: 'Tags',
+                label: '🧠 AI Evolution',
+                to: '/blog/tags/ai-evolution',
+              },
+              {
+                label: '🤖 Machine Learning',
+                to: '/blog/tags/machine-learning',
+              },
+              {
+                label: '✨ Generative AI',
+                to: '/blog/tags/generative-ai',
+              },
+              {
+                type: 'html',
+                value: '<hr style="margin: 0.3rem 0;">',
+              },
+              {
+                label: '🏷️ Browse by Topic',
                 to: '/blog/tags',
+              },
+              {
+                label: '📚 All Articles',
+                to: '/blog',
               },
             ],
           },
