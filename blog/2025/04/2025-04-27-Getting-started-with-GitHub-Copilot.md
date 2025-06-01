@@ -9,8 +9,6 @@ tags: [github-copilot, ai-tools, developer-productivity, vscode, coding-tools]
 
 *How an AI coding assistant changed the way I write software—and how it might change yours too*
 
-![GitHub Copilot in action](/img/blog/github-copilot-demo.png)
-*GitHub Copilot suggesting code completions in Visual Studio Code*
 
 ---
 
