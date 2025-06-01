@@ -163,3 +163,47 @@ git push origin feature/your-feature-name
   - Check console output for errors
   - Verify all images and assets are committed
   - Ensure all required dependencies are installed
+
+## Code Quality and Documentation Standards
+
+### Markdown Linting
+
+The project uses `markdownlint-cli` to ensure consistent markdown formatting. Configuration can be found in `.markdownlint.json`.
+
+```bash
+# Install markdownlint-cli (if not already installed)
+npm install --save-dev markdownlint-cli
+
+# Run markdown linting
+npm run lint:md
+# or directly with npx
+npx markdownlint "**/*.md" --ignore node_modules
+```
+
+### Spell Checking
+
+We use `cspell` for spell checking markdown files. Custom dictionary and configuration can be found in `.cspell.json`.
+
+```bash
+# Install cspell (if not already installed)
+npm install --save-dev cspell
+
+# Run spell check
+npm run spellcheck
+# or directly with npx
+npx cspell "**/*.{md,mdx}"
+```
+
+### Local Development Scripts
+
+Add these scripts to your `package.json`:
+
+```json
+{
+  "scripts": {
+    // ...existing scripts...
+    "lint:md": "markdownlint \"**/*.md\" --ignore node_modules",
+    "spellcheck": "cspell \"**/*.{md,mdx}\""
+  }
+}
+```
