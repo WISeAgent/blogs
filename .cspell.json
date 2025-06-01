@@ -39,7 +39,9 @@
     "ippool",
     "birdcl",
     "kubecontrollersconfiguration",
-    "clusterinformation"
+    "clusterinformation",
+    "confd",
+    "ipip"
   ],
   "ignorePaths": [
     "node_modules/**",
