@@ -8,7 +8,7 @@ NPXA = npx
 
 # Default target
 .PHONY: all
-all: deps spellcheck lint localdev
+all: deps spellcheck lint local
 
 # Install dependencies
 .PHONY: deps
@@ -30,8 +30,8 @@ lint:
 	$(NPXA) markdownlint "**/*.md" --ignore node_modules
 
 # Start local development server
-.PHONY: localdev
-localdev:
+.PHONY: local
+local:
 	@echo "Starting local development server..."
 	$(NPM) run start
 
@@ -56,7 +56,7 @@ help:
 	@echo "  deps       - Install all required dependencies"
 	@echo "  spellcheck - Run spell check on markdown files"
 	@echo "  lint       - Run markdown linting"
-	@echo "  localdev   - Start local development server"
+	@echo "  local   - Start local development server"
 	@echo "  clean      - Clean build artifacts"
 	@echo "  build      - Build the site"
 	@echo "  help       - Show this help message"
