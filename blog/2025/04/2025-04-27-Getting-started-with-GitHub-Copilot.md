@@ -9,7 +9,6 @@ tags: [github-copilot, ai-tools, developer-productivity, vscode, coding-tools]
 
 *How an AI coding assistant changed the way I write software—and how it might change yours too*
 
-
 ---
 
 ## My First Week with Copilot

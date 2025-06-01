@@ -9,7 +9,6 @@ tags: [github-copilot, ai-tools, developer-productivity, vscode, coding-tools, c
 
 *Elevate Your AI Pair Programming with Copilot's Contextual Modes*
 
-
 ---
 
 ## Moving Beyond Basic Code Completion
