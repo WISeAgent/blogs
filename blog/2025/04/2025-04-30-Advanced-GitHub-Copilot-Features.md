@@ -25,11 +25,11 @@ Ask Mode transforms Copilot into a contextual expert, answering questions based 
 
 Imagine you’re working with this code:
 
-\`\`\`javascript
+```javascript
 // Your existing code
 const users = [{ name: 'Alice', age: 30 }, { name: 'Bob', age: 25 }];
 users.map(user => user.age);
-\`\`\`
+```
 
 You could ask Copilot:  
 - "What’s the difference between `map` and `forEach` here?"  
@@ -48,7 +48,7 @@ Vague questions yield vague answers. Precision is key to unlocking Ask Mode’s 
    - ✅ "Why might this `map` call skip undefined values?"
 
 2. **Request Examples**  
-   \`\`\`javascript
+   ```javascript
    // Prompt: "Show me how to filter users over 18"
    
    // Option 1: Using filter
@@ -57,7 +57,7 @@ Vague questions yield vague answers. Precision is key to unlocking Ask Mode’s 
    // Option 2: Using forEach
    const adults = [];
    users.forEach(user => { if (user.age > 18) adults.push(user); });
-   \`\`\`
+   ```
 
 3. **Learn Actively**  
    - Ask about concepts (e.g., "Explain memoization").  
@@ -73,7 +73,7 @@ Edit Mode lets you refactor or upgrade code by describing your goals, with Copil
 
 Take this outdated snippet:
 
-\`\`\`javascript
+```javascript
 function getData(id, callback) {
     $.ajax({
         url: '/data/' + id,
@@ -85,13 +85,13 @@ function getData(id, callback) {
         }
     });
 }
-\`\`\`
+```
 
 Prompt: "Rewrite this using `async/await` and Fetch API."
 
 Copilot might produce:
 
-\`\`\`javascript
+```javascript
 async function getData(id) {
     try {
         const response = await fetch(\`/data/\${id}\`);
@@ -101,7 +101,7 @@ async function getData(id) {
         throw new Error(\`Failed to fetch: \${error.message}\`);
     }
 }
-\`\`\`
+```
 
 #### Potential Limitation
 Copilot may miss subtle requirements (e.g., timeout handling) unless specified. Always double-check the output.
@@ -113,11 +113,11 @@ Copilot may miss subtle requirements (e.g., timeout handling) unless specified. 
    - Define style (e.g., "Keep it concise").
 
 2. **Refine Step-by-Step**  
-   \`\`\`javascript
+   ```javascript
    // Step 1: "Switch to async/await"
    // Step 2: "Add error logging"
    // Step 3: "Implement a 10-second timeout"
-   \`\`\`
+   ```
 
 3. **Verify Results**  
    - Test edge cases.  
@@ -132,12 +132,12 @@ Agent Mode (part of Copilot Workspace) autonomously handles multi-step tasks, ac
 ### Example: Creating a File Analyzer
 
 Prompt:  
-\`\`\`
+```
 Build a tool that:
 1. Reads a CSV file
 2. Calculates column averages
 3. Outputs results to JSON
-\`\`\`
+```
 
 Copilot could:  
 1. Set up a Node.js script with `fs` and `csv-parse`.  
@@ -157,11 +157,11 @@ Ambiguous prompts can lead to incomplete solutions. Clarity is critical.
    - Outline key features.
 
 2. **Break It Down**  
-   \`\`\`bash
+   ```bash
    # Step 1: "Create file reader"
    # Step 2: "Add average calculator"
    # Step 3: "Export to JSON"
-   \`\`\`
+   ```
 
 3. **Check Thoroughly**  
    - Run with sample data.  
@@ -172,11 +172,11 @@ Ambiguous prompts can lead to incomplete solutions. Clarity is critical.
 ## Pro Tips for Advanced Usage
 
 1. **Mix Modes**  
-   \`\`\`javascript
+   ```javascript
    // Ask Mode: "What’s a good structure for a task queue?"
    // Edit Mode: "Apply this to my scheduler"
    // Agent Mode: "Generate tests for it"
-   \`\`\`
+   ```
 
 2. **Optimize Efficiency**  
    - Save common prompts.  
