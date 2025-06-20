@@ -1,3 +1,12 @@
+---
+title: "GitHub Copilot for Senior Developers: Scaling Code Standards Across Teams"
+description: "How to embed your team's expertise into AI-powered development and ensure consistency across your codebase."
+authors: [wiseagent]
+tags: [github-copilot, code-standards, team-productivity, ai-tools, best-practices]
+date: 2025-05-17
+slug: scaling-code-standards-with-copilot
+---
+
 # GitHub Copilot for Senior Developers: Scaling Code Standards Across Teams
 
 *How to embed your team's expertise into AI-powered development*
