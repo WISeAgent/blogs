@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[8771],{9261:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/blogs/blog/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":17,"previousPage":"/blogs/blog","blogDescription":"A collection of professional insights and musings about technology, AI, and lifestyle.","blogTitle":"Blog"}}')}}]);
