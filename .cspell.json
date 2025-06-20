@@ -46,7 +46,11 @@
     "LSTM",
     "Autoencoders",
     "stockouts",
-    "Overfitting"
+    "Overfitting",
+    "logits",
+    "softmax",
+    "crossentropy",
+    "Rulebook"
   ],
   "ignorePaths": [
     "node_modules/**",
