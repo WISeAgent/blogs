@@ -237,16 +237,16 @@ Add these scripts to your `package.json`:
 The repository is structured for clarity and scalability. Top-level folders and their purposes:
 
 - `blog/`  
-  Contains all blog posts, organized by year/month (e.g., `blog/2025/04/`). Each post is a Markdown (`.md` or `.mdx`) file. Use subfolders for chronological or topical grouping.
+  Contains all blog posts, organized by year/month (e.g., `blog/2025/04/`). Each post is a Markdown (`.md` or `.mdx`) file. Use folders for chronological or topical grouping.
 
 - `docs/`  
-  Technical documentation, guides, and reference material. Subfolders group content by topic, technology, or audience (e.g., `docs/AWS/`, `docs/Lifestyle/`). Each doc is a Markdown file.
+  Technical documentation, guides, and reference material. Folders group content by topic, technology, or audience (e.g., `docs/AWS/`, `docs/Lifestyle/`). Each doc is a Markdown file.
 
 - `src/`  
   React components, custom pages, and CSS for site customization.
 
 - `static/`  
-  Static assets such as images, downloadable files, and favicon. Use subfolders like `static/img/blog/` for blog images.
+  Static assets such as images, downloadable files, and favicon. Use folders like `static/img/blog/` for blog images.
 
 **Best Practice:**  
 - Keep blog posts in `blog/YYYY/MM/` for easy navigation and archiving.
@@ -292,7 +292,8 @@ The `docusaurus.config.js` file controls site-wide settings, navigation, theming
    ```
    ---
    title: "My New Post"
-   authors: [yourname]
+   authors: [WISeAgent]
+   author_title: "AI Enthusiast"
    tags: [tag1, tag2]
    slug: my-new-post
    ---

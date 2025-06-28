@@ -50,7 +50,10 @@
     "logits",
     "softmax",
     "crossentropy",
-    "Rulebook"
+    "Rulebook",
+    "Gantt",
+    "Visio",
+    "mmdc"
   ],
   "ignorePaths": [
     "node_modules/**",
