@@ -263,25 +263,7 @@ git push origin main
 
 The key question isn't "which tool is best?" but rather "which tool fits my current needs?" Here's a decision tree to help:
 
-```mermaid
-flowchart TD
-    A[Deploying to Kubernetes?] -->|Yes| B[How many applications?]
-    B -->|1-2 simple apps| C[Need environment-specific configs?]
-    B -->|3+ apps or growing team| D[Need collaboration & audit trails?]
-    
-    C -->|No| E[kubectl + raw YAML<br/>Good for: Learning, simple deployments]
-    C -->|Yes| F[Helm CLI<br/>Good for: Templating, multiple environments]
-    
-    D -->|Basic needs| G[GitOps + CI/CD<br/>Good for: Growing teams, some automation]
-    D -->|Full automation| H[ArgoCD + GitOps + Helm<br/>Good for: Multiple teams, compliance, self-healing]
-    
-    A -->|No| I[Consider Docker Compose<br/>or other container orchestration]
-    
-    style E fill:#e1f5fe
-    style F fill:#f3e5f5
-    style G fill:#fff3e0
-    style H fill:#e8f5e8
-```
+![Kubernetes Deployment Decision Tree](/img/TechSavvy/Kubernetes_deploy.PNG)
 
 ## When to Use Each Tool
 
