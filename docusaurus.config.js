@@ -37,6 +37,12 @@ const config = {
     locales: ['en'],
   },
 
+  // List of themes to add
+  themes: ['@docusaurus/theme-mermaid'],
+  markdown: {
+    mermaid: true,
+  },
+
   presets: [
     [
       'classic',
@@ -67,6 +73,7 @@ const config = {
       }),
     ],
   ],
+
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */

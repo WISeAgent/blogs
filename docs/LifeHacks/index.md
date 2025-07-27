@@ -7,4 +7,4 @@ slug: /LifeHacks
 
 # Life Hacks
 
-Welcome to the GenAI documentation hub!
+Welcome to the Life Hacks hub!
