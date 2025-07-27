@@ -1,8 +1,11 @@
 ---
-title: Placeholder Document
-sidebar_label: Placeholder
+id: index
+title: Documentation Home
+sidebar_label: Documentation Home
+slug: /
 ---
 
-# Placeholder Document
+# Documentation Home
 
-This is a placeholder document to satisfy Docusaurus's requirement for at least one document in the `docs` folder.
+Welcome to the WISeAgent documentation hub!  
+Browse technical guides, best practices, and team knowledge using the sidebar or search above.

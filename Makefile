@@ -32,10 +32,6 @@ lint:
 # Start local development server
 .PHONY: local
 local:
-	@echo "Running spell check..."
-	$(NPXA) cspell "**/*.{md,mdx}"
-	$(NPXA) markdownlint "**/*.md" --ignore node_modules
-	@echo "Starting local development server..."
 	@echo "Starting local development server on http://localhost:3000..."
 	$(NPM) run start
 
@@ -46,9 +42,12 @@ clean:
 	$(NPM) run clear
 	rm -rf build/
 
-# Build the site
+# Build the static site only, does not start a server
 .PHONY: build
 build:
+	@echo "Running spell check and linting..."
+	$(NPXA) cspell "**/*.{md,mdx}"
+	$(NPXA) markdownlint "**/*.md" --ignore node_modules
 	@echo "Building the site..."
 	$(NPM) run build
 
