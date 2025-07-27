@@ -69,7 +69,7 @@ Stop re-explaining context to AI. Build specialized assistants that remember eve
 
 **Who's using custom AI assistants in their engineering workflow?** Share your use cases! 👇
 
-Read the full deep-dive: https://wiseagent.github.io/blogs/docs/TechSavvy/kubernetes/gemini-gems-guide
+[Read the full deep-dive](https://wiseagent.github.io/blogs/docs/TechSavvy/kubernetes/gemini-gems-guide)
 
 *Available to Google Workspace customers*
 

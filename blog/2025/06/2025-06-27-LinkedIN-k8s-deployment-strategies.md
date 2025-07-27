@@ -77,6 +77,6 @@ The best deployment strategy is the one your team can operate reliably in produc
 
 **What's your biggest deployment strategy mistake?** Let's learn from each other! 👇
 
-Read the full deep-dive: https://wiseagent.github.io/blogs/docs/TechSavvy/kubernetes/deployment-strategies
+[Read the full deep-dive](https://wiseagent.github.io/blogs/docs/TechSavvy/kubernetes/deployment-strategies)
 
  #DevOps #Kubernetes #Helm #GitOps #ArgoCD #SRE #CloudNative #TechLeadership #ProductionReady
