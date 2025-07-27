@@ -6,6 +6,7 @@ date: 2025-06-25
 slug: linkedin-gemini-gems-guide
 description: "How to use Google Gemini Gems to build custom AI assistants for your engineering team—no coding required. Boost productivity, consistency, and knowledge sharing."
 ---
+
 # Stop Crafting the Same AI Prompts Every Day – Build Your Custom Engineering Assistant Instead 🛠️
 
 **Tired of repeating "You're a senior Python developer..." in every ChatGPT conversation?** 
@@ -68,6 +69,8 @@ Stop re-explaining context to AI. Build specialized assistants that remember eve
 
 **Who's using custom AI assistants in their engineering workflow?** Share your use cases! 👇
 
+Read the full deep-dive: https://wiseagent.github.io/blogs/docs/TechSavvy/kubernetes/gemini-gems-guide
+
 *Available to Google Workspace customers*
 
-#EngineeringProductivity #AI #GoogleGemini #DeveloperTools
+ #EngineeringProductivity #AI #GoogleGemini #DeveloperTools

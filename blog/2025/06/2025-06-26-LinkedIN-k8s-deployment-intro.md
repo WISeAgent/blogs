@@ -51,6 +51,8 @@ Starting with Kubernetes? We've all been there – copy-pasting YAML files and r
 
 The best part? You don't need to master everything at once. Start with Helm, add GitOps when you need collaboration, implement ArgoCD when you want full automation.
 
+Read the full deep-dive: https://wiseagent.github.io/blogs/docs/TechSavvy/kubernetes/deployment-intro
+
 **What's your biggest Kubernetes deployment pain point?** Drop it in the comments – let's solve it together! 👇
 
-#Kubernetes #DevOps #Helm #GitOps #ArgoCD #CloudNative #TechLeadership
+ #Kubernetes #DevOps #Helm #GitOps #ArgoCD #CloudNative #TechLeadership
