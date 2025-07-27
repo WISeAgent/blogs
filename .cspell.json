@@ -53,7 +53,13 @@
     "Rulebook",
     "Gantt",
     "Visio",
-    "mmdc"
+    "mmdc",
+    "myapp",
+    "nindent",
+    "secretpassword",
+    "Runbook",
+    "runbooks",
+    "gitops"
   ],
   "ignorePaths": [
     "node_modules/**",

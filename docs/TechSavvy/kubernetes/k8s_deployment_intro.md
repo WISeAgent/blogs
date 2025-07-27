@@ -1,3 +1,13 @@
+---
+title: Getting Started with Kubernetes Deployments: Helm, GitOps, and ArgoCD
+description: A practical introduction to deploying applications on Kubernetes using Helm, GitOps, and ArgoCD. Learn why raw YAML doesn't scale and how modern tools simplify configuration, automation, and collaboration.
+slug: /TechSavvy/kubernetes/deployment-intro
+authors: [wiseagent]
+tags: [kubernetes, helm, gitops, argocd, devops, deployment, getting-started]
+---
+
+<!-- cspell:words bitnami -->
+
 # Getting Started with Kubernetes Deployments: Helm, GitOps, and ArgoCD
 
 ## The Problem: Raw Kubernetes is Hard to Manage
