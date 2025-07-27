@@ -36,7 +36,7 @@ local:
 	$(NPXA) cspell "**/*.{md,mdx}"
 	$(NPXA) markdownlint "**/*.md" --ignore node_modules
 	@echo "Starting local development server..."
-	@echo "Starting local development server..."
+	@echo "Starting local development server on http://localhost:3000..."
 	$(NPM) run start
 
 # Clean build artifacts
