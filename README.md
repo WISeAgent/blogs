@@ -231,3 +231,95 @@ Add these scripts to your `package.json`:
   }
 }
 ```
+
+## Content Organization
+
+The repository is structured for clarity and scalability. Top-level folders and their purposes:
+
+- `blog/`  
+  Contains all blog posts, organized by year/month (e.g., `blog/2025/04/`). Each post is a Markdown (`.md` or `.mdx`) file. Use folders for chronological or topical grouping.
+
+- `docs/`  
+  Technical documentation, guides, and reference material. Folders group content by topic, technology, or audience (e.g., `docs/AWS/`, `docs/Lifestyle/`). Each doc is a Markdown file.
+
+- `src/`  
+  React components, custom pages, and CSS for site customization.
+
+- `static/`  
+  Static assets such as images, downloadable files, and favicon. Use folders like `static/img/blog/` for blog images.
+
+**Best Practice:**  
+- Keep blog posts in `blog/YYYY/MM/` for easy navigation and archiving.
+- Group docs by subject area or audience in `docs/`.
+- Place all images in `static/img/` and reference them with absolute paths (e.g., `/img/blog/my-image.png`).
+
+---
+
+## docusaurus.config.js: Site Configuration
+
+The `docusaurus.config.js` file controls site-wide settings, navigation, theming, and plugin options.
+
+**Key Sections:**
+- `title`, `tagline`, `url`, `baseUrl`: Site metadata and deployment settings.
+- `presets`: Configure docs, blog, and theme options.
+- `themeConfig`: Controls navbar, footer, color themes, and more.
+
+**How to Add New Navbar or Footer Entries:**
+1. Open `docusaurus.config.js`.
+2. Find the `themeConfig.navbar.items` array for the top navigation bar.
+3. Add a new object for your entry, e.g.:
+   ```js
+   {
+     label: 'My Guide',
+     to: '/docs/my-guide',
+     position: 'left'
+   }
+   ```
+4. For footer links, edit `themeConfig.footer.links`.
+
+**Tip:**  
+- Use `type: 'docSidebar'` for dropdowns that link to a sidebar group.
+- Use `to: '/blog'` or `to: '/docs/...'` for direct links.
+
+---
+
+## Adding New Content
+
+### Add a New Blog Post
+
+1. Create a new Markdown file in `blog/YYYY/MM/`, e.g. `blog/2025/06/2025-06-30-my-new-post.md`.
+2. Add front matter at the top:
+   ```
+   ---
+   title: "My New Post"
+   authors: [WISeAgent]
+   author_title: "AI Enthusiast"
+   tags: [tag1, tag2]
+   slug: my-new-post
+   ---
+   ```
+3. Write your content below the front matter.
+4. Add images to `static/img/blog/` and reference them as `/img/blog/your-image.png`.
+
+### Add a New Documentation Page
+
+1. Create a Markdown file in the appropriate `docs/` subfolder, e.g. `docs/AWS/aws-best-practices.md`.
+2. Add front matter:
+   ```
+   ---
+   id: aws-best-practices
+   title: AWS Best Practices
+   sidebar_label: AWS Best Practices
+   ---
+   ```
+3. Write your documentation content.
+4. Update `sidebars.js` if you want to add the new page to a sidebar group.
+
+**Tip:**  
+- Use headings (`##`, `###`) for structure.
+- Use code blocks and images as needed.
+- For advanced docs, use `.mdx` for React components.
+
+---
+
+Continue using the rest of this README for setup, development, and workflow instructions.
