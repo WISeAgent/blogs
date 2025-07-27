@@ -2,7 +2,7 @@
 id: index
 title: Documentation Home
 sidebar_label: Documentation Home
-slug: /
+slug: /placeholder
 ---
 
 # Documentation Home
