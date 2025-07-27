@@ -59,7 +59,8 @@
     "secretpassword",
     "Runbook",
     "runbooks",
-    "gitops"
+    "gitops",
+    "cloudnative"
   ],
   "ignorePaths": [
     "node_modules/**",
