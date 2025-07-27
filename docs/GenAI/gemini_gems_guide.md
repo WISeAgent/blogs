@@ -1,6 +1,6 @@
 ---
-title: Gemini Gems for Engineers: Build Your Custom AI Assistant
-description: A practical guide to building and deploying custom Gemini Gems for engineering teams, including setup, best practices, and real-world examples.
+title: "Gemini Gems for Engineers: Build Your Custom AI Assistant"
+description: "A practical guide to building and deploying custom Gemini Gems for engineering teams, including setup, best practices, and real-world examples."
 slug: /TechSavvy/kubernetes/gemini-gems-guide
 authors: [wiseagent]
 tags: [gemini, ai-assistant, workflow, engineering, google, automation, devtools]

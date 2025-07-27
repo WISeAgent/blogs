@@ -1,5 +1,5 @@
 ---
-title: Kubernetes Deployment Strategies: A Senior DevOps Perspective
+title: "Kubernetes Deployment Strategies: A Senior DevOps Perspective"
 description: Real-world lessons and best practices for scaling Kubernetes deployments using Helm, GitOps, and ArgoCD. Learn trade-offs, operational tips, and how to choose the right strategy for your team.
 slug: /TechSavvy/kubernetes/deployment-strategies
 authors: [wiseagent]
