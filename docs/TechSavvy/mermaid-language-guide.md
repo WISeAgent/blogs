@@ -7,7 +7,6 @@ slug: /mermaid-guide
 ## 🧠 TL;DR - A Picture is Worth a Thousand Words
 ![Mermaid Mind Map Overview](/img/blog/mermaid-mindmap-overview.png)
 
-
 **The bottom line:** Turn `A --> B --> C` into professional diagrams that live in your code, update automatically, and never break when you refactor. No Visio, no Figma, no export headaches.
 
 ## 🎯 What You'll Gain in 2 Minutes
