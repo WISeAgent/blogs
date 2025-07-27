@@ -2,7 +2,7 @@
 title: "Stop Crafting the Same AI Prompts Every Day – Build Your Custom Engineering Assistant Instead 🛠️"
 authors: [wiseagent]
 tags: [ai, gemini, google, engineering, productivity, developer-tools, workspace]
-date: 2025-06-26
+date: 2025-06-25
 slug: linkedin-gemini-gems-guide
 description: "How to use Google Gemini Gems to build custom AI assistants for your engineering team—no coding required. Boost productivity, consistency, and knowledge sharing."
 ---

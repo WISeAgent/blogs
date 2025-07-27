@@ -7,6 +7,8 @@ slug: linkedin-k8s-deployment-intro
 description: "A practical, real-world guide to evolving your Kubernetes deployment workflow from raw YAML to Helm, GitOps, and ArgoCD. Learn the stages, benefits, and pro tips for deployment sanity."
 ---
 
+<!-- cspell:ignore techleadership -->
+
 # 🚀 Stop Wrestling with Kubernetes YAML Files – Here's Your Path to Deployment Sanity
 
 Starting with Kubernetes? We've all been there – copy-pasting YAML files and running `kubectl apply` until our fingers hurt. But here's the thing: **raw Kubernetes YAML doesn't scale**.
