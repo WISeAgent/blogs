@@ -95,6 +95,9 @@ const config = {
                 value: '<hr style="margin: 0.3rem 0;">',
               },
               {
+                label: 'GenAI',
+                to: '/docs/GenAI',
+              },              {
                 label: '☁️ AWS & Cloud',
                 to: '/docs/AWS',
               },
