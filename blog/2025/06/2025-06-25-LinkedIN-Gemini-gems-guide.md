@@ -19,7 +19,7 @@ Personalized versions of Google's Gemini that you train once and reuse forever. 
 - Your coding standards and style guides
 - Your internal APIs and documentation  
 - Your troubleshooting procedures
-
+<!--truncate-->
 ## The Transformation
 
 **Before:** "Where's our API documentation? Let me craft another prompt..."
