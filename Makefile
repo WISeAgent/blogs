@@ -32,8 +32,12 @@ lint:
 # Start local development server
 .PHONY: local
 local:
-	@echo "Starting local development server..."
-	$(NPM) run start
+    @echo "Running spell check..."
+    $(NPXA) cspell "**/*.{md,mdx}"
+    @echo "Running markdown linting..."
+    $(NPXA) markdownlint "**/*.md" --ignore node_modules
+    @echo "Starting local development server..."
+    $(NPM) run start
 
 # Clean build artifacts
 .PHONY: clean

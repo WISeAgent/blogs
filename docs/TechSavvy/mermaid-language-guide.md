@@ -1,5 +1,5 @@
 ---
-title: Mastering Mermaid: Turn Text into Diagrams Like a Pro
+title: "Mastering Mermaid: Turn Text into Diagrams Like a Pro"
 description: A practical guide to creating powerful diagrams with simple text syntax - perfect for developers who want visual docs without design tools.
 slug: /mermaid-guide
 ---
