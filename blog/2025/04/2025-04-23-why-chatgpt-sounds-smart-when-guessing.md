@@ -10,6 +10,7 @@ TL;DR, A picture is worth a thousand words.
 ![GenAI thinking is just math + statistics](/img/blog/why-chatgpt-sounds-smart-when-guessing.png)
 
 Here is the longer version...
+<!--truncate-->
 ---
 
 # Why Does ChatGPT Sound So Smart When It's Just Guessing?

@@ -17,7 +17,7 @@ After watching countless teams struggle with Kubernetes deployments, I've learne
 - Raw `helm install` commands
 - Works for: 1-5 services, small teams
 - Breaks when: Multiple environments hit
-
+<!--truncate-->
 **Phase 2: GitOps + CI/CD** (Months 2-6) 
 - Git becomes source of truth
 - CI/CD still handles deployment

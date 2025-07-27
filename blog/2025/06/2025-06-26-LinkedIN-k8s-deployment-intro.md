@@ -23,7 +23,7 @@ Starting with Kubernetes? We've all been there – copy-pasting YAML files and r
 
 **Stage 3:** GitOps + ArgoCD 
 *"My deployments are now bulletproof."*
-
+<!--truncate-->
 ## Why This Journey Matters:
 
 🎯 **Helm** = Think npm for Kubernetes. One chart, multiple environments. Template your way out of YAML hell.

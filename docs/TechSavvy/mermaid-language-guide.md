@@ -35,7 +35,6 @@ flowchart TD
 
 Instead of adding `![diagram](./images/flow.png)` to your markdown, just write:
 
-````markdown
 ```mermaid
 flowchart TD
     Start([User opens app]) --> Auth{Authenticated?}
@@ -43,7 +42,6 @@ flowchart TD
     Auth -->|No| Login[Show login]
     Login --> Auth
 ```
-````
 
 **Result:** Live, interactive diagram that renders directly in your markdown. No image files to manage, no broken links, no manual updates.
 
@@ -249,12 +247,10 @@ Embedded diagrams work out of the box in:
 - Pull request descriptions
 - Markdown files in repositories
 
-````markdown
 ```mermaid
 flowchart LR
     A[Your embedded diagram] --> B[Renders automatically]
 ```
-````
 
 **Pro tip:** No need to manage image assets or worry about relative paths breaking.
 
@@ -269,7 +265,7 @@ flowchart LR
 ```
 
 **After:** Everything embedded in markdown
-```markdown
+````markdown
 # System Architecture
 ```mermaid
 flowchart TD
@@ -285,7 +281,7 @@ sequenceDiagram
     DB-->>API: Data
     API-->>Client: Response
 ```
-```
+````
 
 **Benefits:**
 - No `/docs/images/` folder to maintain

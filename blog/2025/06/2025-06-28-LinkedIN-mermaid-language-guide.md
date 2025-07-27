@@ -5,7 +5,7 @@
 You export from Figma → upload image → code changes → diagram becomes wrong → repeat forever.
 
 **Better solution:** Embed live diagrams directly in markdown that update with your code.
-
+<!--truncate-->
 ## The Problem We All Know
 
 ```
