@@ -1,7 +1,6 @@
 ---
-category: Lifestyle
-parent: /
-parentTitle: Home
-sidebar_label: Lifestyle
+id: index
 title: Lifestyle
+sidebar_label: Lifestyle
+slug: /Lifestyle
 ---
