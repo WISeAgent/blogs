@@ -60,7 +60,13 @@
     "Runbook",
     "runbooks",
     "gitops",
-    "cloudnative"
+    "cloudnative",
+    "aistudio",
+    "genai",
+    "generativeai",
+    "Agentic",
+    "checkpointing",
+    "opensource"
   ],
   "ignorePaths": [
     "node_modules/**",
