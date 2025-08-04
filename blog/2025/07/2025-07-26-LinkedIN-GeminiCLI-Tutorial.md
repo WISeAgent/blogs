@@ -60,6 +60,6 @@ I've used it for code reviews, docs, and debugging. Having AI conversations abou
 
 Best part? Open-source and Google-backed. 
 
-📖 Full installation guide, troubleshooting tips, and advanced workflows: [Read the full deep-dive](https://wiseagent.github.io/blogs/docs/GenAI/gemini/gemini_cli_guide)
+📖 Full installation guide, troubleshooting tips, and advanced workflows: [Read the full deep-dive](https://wiseagent.github.io/blogs/docs/GenAI/gemini/cli-guide)
 
  #AI #Development #CLI #Google #Gemini #DevTools #Productivity #OpenSource
