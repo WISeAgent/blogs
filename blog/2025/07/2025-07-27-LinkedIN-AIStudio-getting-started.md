@@ -69,6 +69,7 @@ The seamless transition from prototype to production eliminates the typical "val
 
 🔗 Ready to 10x your AI development speed?
 
+<!-- markdownlint-disable-next-line MD034 -->
 Read the complete setup process, advanced techniques, and production deployment strategies: https://wiseagent.github.io/blogs/docs/GenAI/gemini/aistudio-getting-started
 
 Question for the community: What's your biggest bottleneck in AI application development? Setup complexity? Model selection? Production deployment?
