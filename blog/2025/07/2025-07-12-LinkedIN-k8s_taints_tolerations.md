@@ -72,4 +72,4 @@ Ready to become a Kubernetes scheduling ninja? 👇
 
 [Full technical deep-dive here](https://wiseagent.github.io/blogs/docs/TechSavvy/kubernetes/k8s_taints_tolerations)
 
-#Kubernetes #DevOps #CloudNative #SRE #TechLeadership
+ #Kubernetes #DevOps #CloudNative #SRE #TechLeadership
