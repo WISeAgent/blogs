@@ -67,7 +67,9 @@
     "Agentic",
     "checkpointing",
     "opensource",
-    "Tolerations"
+    "Tolerations",
+    "pytest",
+    "Pylint"
   ],
   "ignorePaths": [
     "node_modules/**",

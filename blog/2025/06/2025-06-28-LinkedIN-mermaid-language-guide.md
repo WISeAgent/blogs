@@ -1,3 +1,11 @@
+---
+title: "Mastering Mermaid: A Guide to Diagramming with Code"
+description: "Learn how to create powerful and beautiful diagrams directly from text using the Mermaid Markdown-like language, perfect for documentation and technical communication."
+slug: mermaid-language-guide
+date: 2025-06-28
+authors: [wiseagent]
+tags: [mermaid, diagrams, documentation, markdown, development, visualization]
+---
 # Stop Uploading Diagram Screenshots to Your Documentation 📊
 
 **That architecture diagram in your README? It's probably outdated.** 

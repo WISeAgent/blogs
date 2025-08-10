@@ -1,3 +1,14 @@
+---
+title: "Kubernetes Taints & Tolerations: The Secret to Precision Pod Placement"
+description: "A practical guide to mastering Kubernetes taints and tolerations for cost savings, security, and chaos-free clusters. Includes real-world use cases, YAML patterns, and expert tips."
+slug: k8s-taints-tolerations
+date: 2025-07-12
+authors: [wiseagent]
+tags: [kubernetes, devops, cloudnative, sre, scheduling, containers, techleadership]
+---
+
+<!-- cspell:ignore techleadership -->
+
 # LinkedIn Post: Kubernetes Taints & Tolerations
 
 🚨 **Your Kubernetes pods are running wild – here's how to tame them**
@@ -15,7 +26,7 @@ But what about *repelling* them?
 • **Taints** = "Authorized Personnel Only" signs on nodes
 • **Tolerations** = Security badges that grant pod access  
 • **Scheduler** = The security guard enforcing the rules
-
+<!--truncate-->
 ---
 
 **⚡ Three levels of enforcement:**
