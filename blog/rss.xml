@@ -4,67 +4,112 @@
         <title>WISeAgent Documentation Blog</title>
         <link>https://WISeAgent.github.io/blogs/blog</link>
         <description>WISeAgent Documentation Blog</description>
-        <lastBuildDate>Sun, 27 Jul 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 28 Jul 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[From Zero to AI Hero: Build Production Apps with Google AI Studio in Minutes]]></title>
+            <title><![CDATA[Gemini Code Assist: Your AI Pair Programmer]]></title>
+            <link>https://WISeAgent.github.io/blogs/blog/gemini-code-assist-guide</link>
+            <guid>https://WISeAgent.github.io/blogs/blog/gemini-code-assist-guide</guid>
+            <pubDate>Mon, 28 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore how Gemini Code Assist can revolutionize your development workflow with intelligent code suggestions, generation, and debugging assistance.]]></description>
+            <content:encoded><![CDATA[<p><strong>🚀 Why 73% of developers are still reviewing AI-generated code wrong (and how to fix it)</strong></p>
+<p>I just spent weeks analyzing technical documentation about AI coding assistants, and found a critical gap that's costing teams time and introducing bugs.</p>
+<p>Here's what most developers get wrong:</p>
+<p>❌ <strong>The Problem:</strong> Teams treat AI suggestions like gospel</p>
+<ul>
+<li>Copy-paste without review</li>
+<li>Skip testing on "simple" generated code</li>
+<li>Miss logical flaws that look syntactically correct</li>
+</ul>
+<p>❌ <strong>Real Example I Found:</strong> AI generated a unit test that "passed" but tested invalid logic:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">def test_negative_radius():</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    assert calculate_area_of_circle(-1) == 3.14</span><br></span></code></pre></div></div>
+<p>This test passes, but a negative radius should raise an error, not return area!</p>
+<p>✅ <strong>The Fix:</strong> Treat AI as your junior developer, not your senior architect</p>
+<p><strong>What smart teams do differently:</strong></p>
+<p>🔍 <strong>Always review for logic, not just syntax</strong></p>
+<ul>
+<li>Does this actually solve the problem correctly?</li>
+<li>Are edge cases handled properly?</li>
+<li>Does it follow security best practices?</li>
+</ul>
+<p>📝 <strong>Use AI for acceleration, not replacement</strong></p>
+<ul>
+<li>Generate boilerplate → Review → Refine</li>
+<li>Ask for explanations when you don't understand</li>
+<li>Test everything, especially the "obvious" stuff</li>
+</ul>
+<p>⚡ <strong>Pro tip:</strong> The best prompt isn't "fix this bug" – it's "this function should validate emails but allows 'test@'. Fix the regex pattern."</p>
+<p>Context = better output.</p>
+<p><strong>Bottom line:</strong> AI coding tools like Gemini Code Assist can 3x your productivity, but only if you stay in the driver's seat.</p>
+<p>The developers winning with AI aren't the ones using it most – they're the ones reviewing it best.</p>
+<p>Want the complete technical breakdown on AI-assisted development best practices?</p>
+<p>👉 <a href="https://wiseagent.github.io/blogs/docs/GenAI/gemini/gemini_code_assist_guide" target="_blank" rel="noopener noreferrer">Gemini Code Assist</a></p>
+<p>#SoftwareDevelopment #AI #CodingBestPractices #TechLeadership #Development</p>]]></content:encoded>
+            <category>gemini</category>
+            <category>ai</category>
+            <category>code-assist</category>
+            <category>development</category>
+            <category>productivity</category>
+            <category>programming</category>
+        </item>
+        <item>
+            <title><![CDATA[Getting Started with Google AI Studio]]></title>
             <link>https://WISeAgent.github.io/blogs/blog/ai-studio-getting-started</link>
             <guid>https://WISeAgent.github.io/blogs/blog/ai-studio-getting-started</guid>
             <pubDate>Sun, 27 Jul 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[A hands-on guide to building and deploying real AI apps with Google AI Studio—no complex setup, just instant results with Gemini 2.5 Pro and Flash.]]></description>
-            <content:encoded><![CDATA[<p>🚀 From Zero to AI Hero: Build Production Apps with Google AI Studio in Minutes</p>
-<p>Tired of complex AI setups that take weeks? Google AI Studio just changed the game.</p>
-<p>I've been testing Google's latest platform—it's mind-blowing how fast you can go from idea to working AI app. No Docker, no configs, no API wrestling.</p>
-<p>🎯 What Makes This Different?</p>
-<p>Google AI Studio gives instant access to Gemini 2.5 Pro and Flash with zero configuration. Think "CodePen for AI" with production deployment built-in.</p>
-<p>Upload architecture diagrams for code reviews or process videos for documentation. All in one interface.</p>
-<p>⚡ Real Example: 5-Minute Code Review Bot</p>
-<p>What I built in 5 minutes:</p>
+            <description><![CDATA[A practical guide to setting up and exploring Google AI Studio, empowering developers to build and experiment with generative AI models.]]></description>
+            <content:encoded><![CDATA[<p>🎯 From prototype to production in minutes, not months - Google AI Studio is revolutionizing how we build GenAI applications</p>
+<p>After diving deep into Google's latest developer platform, I'm convinced this could be the biggest productivity unlock for AI developers since GitHub Copilot.</p>
+<p>🧠 What Makes This Different:</p>
+<p>Zero-Config Magic:</p>
+<p>No more wrestling with environment setup, dependency hell, or authentication headaches. Open your browser, sign in with Google, and you're building with Gemini 2.5 models instantly.</p>
+<p>True Multimodal Power:</p>
+<p>Upload images, videos, or audio files directly into your prompts. I tested this with architectural diagrams, UI mockups, and even YouTube tutorials - the context understanding is remarkable.</p>
+<p>Production-Ready from Day One:</p>
+<p>The "Get Code" button generates production-ready Python, JavaScript, or Go code with proper error handling and best practices baked in. Export directly to Vertex AI, Cloud Run, or Firebase.</p>
+<p>💡 Real-World Impact:</p>
+<p>Case Study: I built a comprehensive code review assistant in 15 minutes:</p>
+<p>• System instructions for expert-level analysis</p>
+<p>• Multi-language support with security vulnerability detection</p>
+<p>• Structured markdown output for CI/CD integration</p>
+<p>• Temperature tuning for consistent, actionable feedback</p>
+<p>The Technical Sweet Spot:</p>
+<p>• Gemini 2.5 Pro: 2M token context, perfect for complex reasoning and large codebases</p>
+<p>• Gemini 2.5 Flash: 1M tokens, 2-5 second responses for real-time applications</p>
+<p>• Thinking budgets: Control processing depth vs. cost</p>
+<p>Enterprise Considerations:</p>
+<p>Built-in analytics track token usage and latency. Safety settings are granular enough for compliance requirements. The free tier is generous enough for serious experimentation.</p>
+<p>🔧 Developer Pro Tips:</p>
 <ol>
-<li>Created Chat prompt in AI Studio</li>
-<li>Added system instructions for code expertise</li>
-<li>Configured Gemini 2.5 Pro (temp 0.3)</li>
-<li>Tested with Python code</li>
-<li>Exported to production API</li>
+<li>
+<p>Start with prompt chaining - Break complex tasks into sequential steps for better reliability</p>
+</li>
+<li>
+<p>Use few-shot examples - Include 2-3 examples in your system instructions for consistency</p>
+</li>
+<li>
+<p>Structure your outputs - Request JSON or XML formats for easier parsing</p>
+</li>
+<li>
+<p>Monitor your tokens - Use the built-in analytics to optimize prompt efficiency</p>
+</li>
 </ol>
-<p>The AI caught a division-by-zero bug and suggested optimizations. Previously, this setup took days.</p>
-<p>🔧 Key Features</p>
-<p>• <strong>Model Flexibility</strong>: Switch between Pro (reasoning) and Flash (speed)
-• <strong>Cost Control</strong>: Thinking budgets manage processing costs
-• <strong>Production Ready</strong>: Export to Vertex AI, Cloud Run, Firebase
-• <strong>Real-time</strong>: Stream responses for interactive apps</p>
-<p>Side-by-side testing showed Flash handles 80% of use cases at 3x Pro's speed, saving significant production costs.</p>
-<p>💡 Pro Tips That Matter</p>
-<ol>
-<li><strong>System instructions</strong> set consistent behavior</li>
-<li><strong>Prompt chaining</strong> breaks complex tasks into steps</li>
-<li><strong>Test edge cases</strong> early with built-in versioning</li>
-<li><strong>Monitor tokens</strong> to optimize costs pre-production</li>
-</ol>
-<p>Biggest surprise? Multimodal isn't marketing fluff. I uploaded a UI mockup—it generated working HTML/CSS.</p>
-<p>🚨 Watch Out For</p>
-<p>• Free tier has quotas
-• Response times vary by model
-• Adjust safety settings per use case
-• Always validate AI outputs</p>
-<p>🎉 Bottom Line</p>
-<p>AI Studio eliminates traditional AI development barriers. No more weeks on infrastructure-focus on user experiences.</p>
-<p>The platform's thinking technology excels at complex reasoning that typically requires multiple model calls.</p>
-<p>Whether building chatbots, content generators, or code assistants, this is the fastest path from concept to deployment.</p>
-<p>Start at aistudio.google.com</p>
-<p>📖 Want the complete technical guide? I've written a comprehensive tutorial covering setup to production deployment with working examples.</p>
-<p><a href="https://wiseagent.github.io/blogs/docs/GenAI/gemini/aistudio_getting_started" target="_blank" rel="noopener noreferrer">Read the full deep-dive</a></p>
-<p>#AI #GoogleAI #Developers #MachineLearning #Gemini #GenerativeAI</p>]]></content:encoded>
+<p>Common Pitfall Alert: Don't overload context. Large inputs can degrade response quality. Use summarization or chunking strategies for massive datasets.</p>
+<p>The Deployment Game-Changer:</p>
+<p>The seamless transition from prototype to production eliminates the typical "valley of death" where promising demos never make it to users. You can validate concepts quickly, then scale with enterprise-grade infrastructure.</p>
+<p>🔗 Ready to 10x your AI development speed?</p>
+<p>Read the complete setup process, advanced techniques, and production deployment <a href="https://wiseagent.github.io/blogs/docs/GenAI/gemini/aistudio-getting-started" target="_blank" rel="noopener noreferrer">strategies</a></p>
+<p>Question for the community: What's your biggest bottleneck in AI application development? Setup complexity? Model selection? Production deployment?</p>
+<p>Drop your thoughts below - I'm curious how this might fit into your current workflow 👇
+#AI #GoogleAI #Developers #MachineLearning #Gemini #GenerativeAI</p>]]></content:encoded>
             <category>ai</category>
             <category>google</category>
             <category>aistudio</category>
-            <category>gemini</category>
-            <category>development</category>
-            <category>productivity</category>
-            <category>machinelearning</category>
             <category>generativeai</category>
+            <category>tutorial</category>
+            <category>development</category>
         </item>
         <item>
             <title><![CDATA[STOP Using ChatGPT in Your Browser – Google's Gemini CLI Just Changed Everything for Developers!]]></title>
@@ -108,7 +153,7 @@
 <p>This isn't just another AI tool - it's a fundamental shift. Instead of context-switching between browser and terminal, everything happens in your natural workflow.</p>
 <p>I've used it for code reviews, docs, and debugging. Having AI conversations about your actual codebase, with full context, without leaving terminal is incredibly powerful.</p>
 <p>Best part? Open-source and Google-backed.</p>
-<p>📖 Full installation guide, troubleshooting tips, and advanced workflows: <a href="https://wiseagent.github.io/blogs/docs/GenAI/gemini/gemini_cli_guide" target="_blank" rel="noopener noreferrer">Read the full deep-dive</a></p>
+<p>📖 Full installation guide, troubleshooting tips, and advanced workflows: <a href="https://wiseagent.github.io/blogs/docs/GenAI/gemini/cli-guide" target="_blank" rel="noopener noreferrer">Read the full deep-dive</a></p>
 <p>#AI #Development #CLI #Google #Gemini #DevTools #Productivity #OpenSource</p>]]></content:encoded>
             <category>gemini</category>
             <category>google</category>
@@ -120,25 +165,74 @@
             <category>opensource</category>
         </item>
         <item>
-            <title><![CDATA[Stop Uploading Diagram Screenshots to Your Documentation 📊]]></title>
-            <link>https://WISeAgent.github.io/blogs/blog/2025/06/28/2025/06/LinkedIN-mermaid-language-guide</link>
-            <guid>https://WISeAgent.github.io/blogs/blog/2025/06/28/2025/06/LinkedIN-mermaid-language-guide</guid>
+            <title><![CDATA[Kubernetes Taints & Tolerations: The Secret to Precision Pod Placement]]></title>
+            <link>https://WISeAgent.github.io/blogs/blog/k8s-taints-tolerations</link>
+            <guid>https://WISeAgent.github.io/blogs/blog/k8s-taints-tolerations</guid>
+            <pubDate>Sat, 12 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[A practical guide to mastering Kubernetes taints and tolerations for cost savings, security, and chaos-free clusters. Includes real-world use cases, YAML patterns, and expert tips.]]></description>
+            <content:encoded><![CDATA[<p>🚨 <strong>Your Kubernetes pods are running wild – here's how to tame them</strong></p>
+<p>Most engineers know nodeSelector and affinity for <em>attracting</em> pods to nodes.</p>
+<p>But what about <em>repelling</em> them?</p>
+<p><strong>Enter Taints &amp; Tolerations</strong> – Kubernetes' bouncer system that keeps your workloads exactly where they belong.</p>
+<hr>
+<p><strong>🏢 Think of it like office security:</strong></p>
+<p>• <strong>Taints</strong> = "Authorized Personnel Only" signs on nodes
+• <strong>Tolerations</strong> = Security badges that grant pod access<br>
+<!-- -->• <strong>Scheduler</strong> = The security guard enforcing the rules</p>
+<hr>
+<p><strong>⚡ Three levels of enforcement:</strong></p>
+<p><strong>NoSchedule</strong> → "Stop new visitors"
+<em>Perfect for reserving GPU nodes for ML workloads</em></p>
+<p><strong>PreferNoSchedule</strong> → "Discourage but allow if desperate"<br>
+<em>Soft separation for non-critical isolation</em></p>
+<p><strong>NoExecute</strong> → "Evacuate unauthorized personnel NOW"
+<em>Immediate eviction for maintenance or emergencies</em></p>
+<hr>
+<p><strong>💡 Real-world power moves:</strong></p>
+<p>✅ Reserve $50K GPU nodes exclusively for AI training
+✅ Isolate production workloads from dev chaos<br>
+<!-- -->✅ Handle spot instance terminations gracefully
+✅ Drain nodes for maintenance without downtime</p>
+<hr>
+<p><strong>🔧 Pro tip combo:</strong></p>
+<div class="language-yaml codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-yaml codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic"># The security + attraction pattern</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">tolerations</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token string" style="color:#e3116c">"gpu-access-granted"</span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">affinity</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token string" style="color:#e3116c">"prefer-gpu-nodes"</span><span class="token punctuation" style="color:#393A34">]</span><br></span></code></pre></div></div>
+<p>Use taints to EXCLUDE + affinity to ATTRACT = surgical pod placement</p>
+<hr>
+<p><strong>🎯 Bottom line:</strong>
+Master this and you'll transform chaotic clusters into precision-engineered systems where every workload runs exactly where it should – saving costs, improving security, and eliminating those 3 AM "why is my database on the spot instance?!" incidents.</p>
+<p>Ready to become a Kubernetes scheduling ninja? 👇</p>
+<p><strong>Drop a 🎯 if you've battled pod placement chaos</strong>
+<strong>Share your worst scheduling horror story below</strong></p>
+<p><a href="https://wiseagent.github.io/blogs/docs/TechSavvy/kubernetes/k8s_taints_tolerations" target="_blank" rel="noopener noreferrer">Full technical deep-dive here</a></p>
+<p>#Kubernetes #DevOps #CloudNative #SRE #TechLeadership</p>]]></content:encoded>
+            <category>kubernetes</category>
+            <category>devops</category>
+            <category>cloudnative</category>
+            <category>sre</category>
+            <category>scheduling</category>
+            <category>containers</category>
+            <category>techleadership</category>
+        </item>
+        <item>
+            <title><![CDATA[Mastering Mermaid: A Guide to Diagramming with Code]]></title>
+            <link>https://WISeAgent.github.io/blogs/blog/mermaid-language-guide</link>
+            <guid>https://WISeAgent.github.io/blogs/blog/mermaid-language-guide</guid>
             <pubDate>Sat, 28 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[That architecture diagram in your README? It's probably outdated.]]></description>
+            <description><![CDATA[Learn how to create powerful and beautiful diagrams directly from text using the Mermaid Markdown-like language, perfect for documentation and technical communication.]]></description>
             <content:encoded><![CDATA[<p><strong>That architecture diagram in your README? It's probably outdated.</strong></p>
 <p>You export from Figma → upload image → code changes → diagram becomes wrong → repeat forever.</p>
 <p><strong>Better solution:</strong> Embed live diagrams directly in markdown that update with your code.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-problem-we-all-know">The Problem We All Know<a href="https://wiseagent.github.io/blogs/blog/2025/06/28/2025/06/LinkedIN-mermaid-language-guide#the-problem-we-all-know" class="hash-link" aria-label="Direct link to The Problem We All Know" title="Direct link to The Problem We All Know">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-problem-we-all-know">The Problem We All Know<a href="https://wiseagent.github.io/blogs/blog/mermaid-language-guide#the-problem-we-all-know" class="hash-link" aria-label="Direct link to The Problem We All Know" title="Direct link to The Problem We All Know">​</a></h2>
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">docs/images/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  architecture-v1.png ❌ (outdated)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  architecture-v2.png ❌ (also outdated) </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  api-flow-final.png ❌ (definitely not final)</span><br></span></code></pre></div></div>
 <p>Your <code>/images</code> folder is a graveyard of outdated diagrams.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-solution-embedded-mermaid">The Solution: Embedded Mermaid<a href="https://wiseagent.github.io/blogs/blog/2025/06/28/2025/06/LinkedIN-mermaid-language-guide#the-solution-embedded-mermaid" class="hash-link" aria-label="Direct link to The Solution: Embedded Mermaid" title="Direct link to The Solution: Embedded Mermaid">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-solution-embedded-mermaid">The Solution: Embedded Mermaid<a href="https://wiseagent.github.io/blogs/blog/mermaid-language-guide#the-solution-embedded-mermaid" class="hash-link" aria-label="Direct link to The Solution: Embedded Mermaid" title="Direct link to The Solution: Embedded Mermaid">​</a></h2>
 <p>Instead of managing image files, write text:</p>
 <div class="language-markdown codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-markdown codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token code punctuation" style="color:#393A34">```</span><span class="token code code-language">mermaid</span><span class="token code"></span><br></span><span class="token-line" style="color:#393A34"><span class="token code"></span><span class="token code code-block language-mermaid">flowchart LR</span><br></span><span class="token-line" style="color:#393A34"><span class="token code code-block language-mermaid">    Frontend --&gt; API --&gt; Database</span><span class="token code"></span><br></span><span class="token-line" style="color:#393A34"><span class="token code"></span><span class="token code punctuation" style="color:#393A34">```</span><br></span></code></pre></div></div>
 <p><strong>Result:</strong> Live diagram that renders in GitHub, GitLab, Docusaurus, and most documentation platforms.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="real-example-api-flow">Real Example: API Flow<a href="https://wiseagent.github.io/blogs/blog/2025/06/28/2025/06/LinkedIN-mermaid-language-guide#real-example-api-flow" class="hash-link" aria-label="Direct link to Real Example: API Flow" title="Direct link to Real Example: API Flow">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="real-example-api-flow">Real Example: API Flow<a href="https://wiseagent.github.io/blogs/blog/mermaid-language-guide#real-example-api-flow" class="hash-link" aria-label="Direct link to Real Example: API Flow" title="Direct link to Real Example: API Flow">​</a></h2>
 <div class="language-markdown codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-markdown codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token code punctuation" style="color:#393A34">```</span><span class="token code code-language">mermaid</span><span class="token code"></span><br></span><span class="token-line" style="color:#393A34"><span class="token code"></span><span class="token code code-block language-mermaid">sequenceDiagram</span><br></span><span class="token-line" style="color:#393A34"><span class="token code code-block language-mermaid">    User-&gt;&gt;Frontend: Login</span><br></span><span class="token-line" style="color:#393A34"><span class="token code code-block language-mermaid">    Frontend-&gt;&gt;API: POST /auth/login</span><br></span><span class="token-line" style="color:#393A34"><span class="token code code-block language-mermaid">    API-&gt;&gt;Database: Validate</span><br></span><span class="token-line" style="color:#393A34"><span class="token code code-block language-mermaid">    Database--&gt;&gt;API: User data</span><br></span><span class="token-line" style="color:#393A34"><span class="token code code-block language-mermaid">    API--&gt;&gt;Frontend: JWT token</span><span class="token code"></span><br></span><span class="token-line" style="color:#393A34"><span class="token code"></span><span class="token code punctuation" style="color:#393A34">```</span><br></span></code></pre></div></div>
 <p>This renders as a beautiful, interactive diagram – no Figma, no exports, no broken links.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="quick-start">Quick Start<a href="https://wiseagent.github.io/blogs/blog/2025/06/28/2025/06/LinkedIN-mermaid-language-guide#quick-start" class="hash-link" aria-label="Direct link to Quick Start" title="Direct link to Quick Start">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="quick-start">Quick Start<a href="https://wiseagent.github.io/blogs/blog/mermaid-language-guide#quick-start" class="hash-link" aria-label="Direct link to Quick Start" title="Direct link to Quick Start">​</a></h2>
 <p><strong>Choose your type:</strong></p>
 <ul>
 <li>System flow? → <code>flowchart TD</code></li>
@@ -147,34 +241,40 @@
 </ul>
 <p><strong>Basic syntax:</strong></p>
 <!-- -->
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-this-changes-everything">Why This Changes Everything<a href="https://wiseagent.github.io/blogs/blog/2025/06/28/2025/06/LinkedIN-mermaid-language-guide#why-this-changes-everything" class="hash-link" aria-label="Direct link to Why This Changes Everything" title="Direct link to Why This Changes Everything">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-this-changes-everything">Why This Changes Everything<a href="https://wiseagent.github.io/blogs/blog/mermaid-language-guide#why-this-changes-everything" class="hash-link" aria-label="Direct link to Why This Changes Everything" title="Direct link to Why This Changes Everything">​</a></h2>
 <p><strong>Version Control:</strong> Diagrams change with code in the same PR</p>
 <p><strong>Always Current:</strong> README reflects actual system, not 6-month-old screenshots</p>
 <p><strong>Better Workflow:</strong> Write docs in markdown, embed diagrams inline, renders everywhere</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="common-patterns">Common Patterns<a href="https://wiseagent.github.io/blogs/blog/2025/06/28/2025/06/LinkedIN-mermaid-language-guide#common-patterns" class="hash-link" aria-label="Direct link to Common Patterns" title="Direct link to Common Patterns">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="common-patterns">Common Patterns<a href="https://wiseagent.github.io/blogs/blog/mermaid-language-guide#common-patterns" class="hash-link" aria-label="Direct link to Common Patterns" title="Direct link to Common Patterns">​</a></h2>
 <p><strong>System Architecture:</strong></p>
 <!-- -->
 <p><strong>Service Communication:</strong></p>
 <!-- -->
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="platform-support">Platform Support<a href="https://wiseagent.github.io/blogs/blog/2025/06/28/2025/06/LinkedIN-mermaid-language-guide#platform-support" class="hash-link" aria-label="Direct link to Platform Support" title="Direct link to Platform Support">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="platform-support">Platform Support<a href="https://wiseagent.github.io/blogs/blog/mermaid-language-guide#platform-support" class="hash-link" aria-label="Direct link to Platform Support" title="Direct link to Platform Support">​</a></h2>
 <p>Works natively in GitHub/GitLab, Docusaurus, GitBook, Obsidian, VS Code.</p>
 <p>Test at <a href="https://mermaid.live/" target="_blank" rel="noopener noreferrer">mermaid.live</a></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="pro-tips">Pro Tips<a href="https://wiseagent.github.io/blogs/blog/2025/06/28/2025/06/LinkedIN-mermaid-language-guide#pro-tips" class="hash-link" aria-label="Direct link to Pro Tips" title="Direct link to Pro Tips">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="pro-tips">Pro Tips<a href="https://wiseagent.github.io/blogs/blog/mermaid-language-guide#pro-tips" class="hash-link" aria-label="Direct link to Pro Tips" title="Direct link to Pro Tips">​</a></h2>
 <ul>
 <li><strong>Start simple:</strong> Convert your main README diagram first</li>
 <li><strong>Stay focused:</strong> Multiple small diagrams &gt; one complex diagram</li>
 <li><strong>Review process:</strong> Include diagram updates in code reviews</li>
 <li><strong>Templates:</strong> Create reusable patterns</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-bottom-line">The Bottom Line<a href="https://wiseagent.github.io/blogs/blog/2025/06/28/2025/06/LinkedIN-mermaid-language-guide#the-bottom-line" class="hash-link" aria-label="Direct link to The Bottom Line" title="Direct link to The Bottom Line">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-bottom-line">The Bottom Line<a href="https://wiseagent.github.io/blogs/blog/mermaid-language-guide#the-bottom-line" class="hash-link" aria-label="Direct link to The Bottom Line" title="Direct link to The Bottom Line">​</a></h2>
 <p><strong>Before:</strong> Export → Upload → Outdated → Repeat
 <strong>After:</strong> Write text → Renders everywhere → Always current</p>
 <p>Your documentation becomes a living reflection of your system instead of outdated screenshots.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="try-this-today">Try This Today<a href="https://wiseagent.github.io/blogs/blog/2025/06/28/2025/06/LinkedIN-mermaid-language-guide#try-this-today" class="hash-link" aria-label="Direct link to Try This Today" title="Direct link to Try This Today">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="try-this-today">Try This Today<a href="https://wiseagent.github.io/blogs/blog/mermaid-language-guide#try-this-today" class="hash-link" aria-label="Direct link to Try This Today" title="Direct link to Try This Today">​</a></h2>
 <p>Find one diagram image in your docs and replace it with embedded Mermaid. Copy any example above into a GitHub README and watch it render live.</p>
 <p><strong>Who else is tired of managing diagram files?</strong> Share your documentation struggles! 👇
 <a href="https://wiseagent.github.io/blogs/docs/mermaid-guide" target="_blank" rel="noopener noreferrer">Read the full deep-dive</a>
 #SoftwareEngineering #Documentation #GitHub #DeveloperProductivity</p>]]></content:encoded>
+            <category>mermaid</category>
+            <category>diagrams</category>
+            <category>documentation</category>
+            <category>markdown</category>
+            <category>development</category>
+            <category>visualization</category>
         </item>
         <item>
             <title><![CDATA[From Kubernetes Chaos to Deployment Mastery: A Senior DevOps Reality Check]]></title>
@@ -1068,123 +1168,6 @@ For each AI opportunity, ask: "Are we trying to predict something or create some
             <category>AI</category>
             <category>Prompt Engineering</category>
             <category>Generative AI</category>
-        </item>
-        <item>
-            <title><![CDATA[Deep Learning: AI's Powerful Neural Revolution]]></title>
-            <link>https://WISeAgent.github.io/blogs/blog/deep-learning-ais-powerful-neural-revolution</link>
-            <guid>https://WISeAgent.github.io/blogs/blog/deep-learning-ais-powerful-neural-revolution</guid>
-            <pubDate>Sun, 30 Mar 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[In our AI evolution series, we've journeyed from symbolic systems and early neural networks to the rise of machine learning. Now, we dive into deep learning—the technology powering today's most astonishing breakthroughs, from image recognition to language generation.]]></description>
-            <content:encoded><![CDATA[<p>In our AI evolution series, we've journeyed from symbolic systems and early neural networks to the rise of machine learning. Now, we dive into deep learning—the technology powering today's most astonishing breakthroughs, from image recognition to language generation.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-the-power-of-deep-representation">1. The Power of Deep Representation<a href="https://wiseagent.github.io/blogs/blog/deep-learning-ais-powerful-neural-revolution#1-the-power-of-deep-representation" class="hash-link" aria-label="Direct link to 1. The Power of Deep Representation" title="Direct link to 1. The Power of Deep Representation">​</a></h3>
-<p>Deep learning is a paradigm shift. Traditional machine learning often relies on manually engineered features, but deep neural networks automatically learn hierarchical representations from raw data. Think of it like a child learning to recognize a car: first, they notice basic shapes and colors; then, they identify wheels and windows; eventually, they can distinguish specific models. Similarly, early layers of a deep network capture simple edges and textures, while deeper layers learn complex objects and concepts.</p>
-<p>This revolution has been fueled by:</p>
-<ul>
-<li><strong>Massive Datasets:</strong> Rich training examples that enable nuanced learning.</li>
-<li><strong>Hardware Acceleration:</strong> GPUs and TPUs that power complex computations.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-from-research-labs-to-a-global-revolution">2. From Research Labs to a Global Revolution<a href="https://wiseagent.github.io/blogs/blog/deep-learning-ais-powerful-neural-revolution#2-from-research-labs-to-a-global-revolution" class="hash-link" aria-label="Direct link to 2. From Research Labs to a Global Revolution" title="Direct link to 2. From Research Labs to a Global Revolution">​</a></h3>
-<p>Companies worldwide are applying deep learning to solve complex challenges:</p>
-<ul>
-<li><strong>Healthcare:</strong> Detecting diseases in medical images with superhuman accuracy</li>
-<li><strong>Autonomous Vehicles:</strong> Processing sensor data for real-time decision making</li>
-<li><strong>Natural Language:</strong> Powering chatbots and translation services</li>
-<li><strong>Computer Vision:</strong> Enhancing security systems and quality control</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-architecture-zoo-specialized-networks-for-complex-tasks">3. Architecture Zoo: Specialized Networks for Complex Tasks<a href="https://wiseagent.github.io/blogs/blog/deep-learning-ais-powerful-neural-revolution#3-architecture-zoo-specialized-networks-for-complex-tasks" class="hash-link" aria-label="Direct link to 3. Architecture Zoo: Specialized Networks for Complex Tasks" title="Direct link to 3. Architecture Zoo: Specialized Networks for Complex Tasks">​</a></h3>
-<p>Different problems require different architectures:</p>
-<ul>
-<li><strong>CNNs (Convolutional Neural Networks):</strong> Masters of visual tasks</li>
-<li><strong>RNNs (Recurrent Neural Networks):</strong> Processing sequential data like text</li>
-<li><strong>Transformers:</strong> Revolutionizing language understanding and generation</li>
-<li><strong>GANs (Generative Adversarial Networks):</strong> Creating synthetic data and art</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-real-world-impact-across-domains">4. Real-World Impact Across Domains<a href="https://wiseagent.github.io/blogs/blog/deep-learning-ais-powerful-neural-revolution#4-real-world-impact-across-domains" class="hash-link" aria-label="Direct link to 4. Real-World Impact Across Domains" title="Direct link to 4. Real-World Impact Across Domains">​</a></h3>
-<p>Deep learning is transforming industries:</p>
-<ul>
-<li><strong>Manufacturing:</strong> Quality control and predictive maintenance</li>
-<li><strong>Finance:</strong> Fraud detection and algorithmic trading</li>
-<li><strong>Entertainment:</strong> Content recommendations and AI-generated art</li>
-<li><strong>Science:</strong> Drug discovery and climate modeling</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-ongoing-challenges-and-future-directions">5. Ongoing Challenges and Future Directions<a href="https://wiseagent.github.io/blogs/blog/deep-learning-ais-powerful-neural-revolution#5-ongoing-challenges-and-future-directions" class="hash-link" aria-label="Direct link to 5. Ongoing Challenges and Future Directions" title="Direct link to 5. Ongoing Challenges and Future Directions">​</a></h3>
-<p>While powerful, deep learning faces important challenges:</p>
-<ul>
-<li><strong>Interpretability:</strong> Understanding model decisions</li>
-<li><strong>Data Efficiency:</strong> Learning from less data</li>
-<li><strong>Energy Consumption:</strong> Reducing computational costs</li>
-<li><strong>Robustness:</strong> Ensuring reliable performance</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a href="https://wiseagent.github.io/blogs/blog/deep-learning-ais-powerful-neural-revolution#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h3>
-<p>Deep learning has revolutionized AI, enabling systems that can see, hear, speak, and understand. As we continue pushing boundaries, the next frontier awaits: artificial general intelligence.</p>
-<p><em>Share your thoughts: How has deep learning impacted your field? What challenges and opportunities do you see ahead?</em></p>]]></content:encoded>
-            <category>AI</category>
-            <category>Deep Learning</category>
-            <category>Neural Networks</category>
-        </item>
-        <item>
-            <title><![CDATA[Mastering the Art of Claude Prompting: From Basic Requests to Complex Solutions]]></title>
-            <link>https://WISeAgent.github.io/blogs/blog/mastering-the-art-of-claude-prompting-from-basic-requests-to-complex-solutions</link>
-            <guid>https://WISeAgent.github.io/blogs/blog/mastering-the-art-of-claude-prompting-from-basic-requests-to-complex-solutions</guid>
-            <pubDate>Sun, 30 Mar 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Communication is an art form, and nowhere is this more apparent than when interacting with AI assistants like Claude. Through my recent experimentation and conversations with Claude, I've discovered that how you structure your prompts dramatically impacts the quality and relevance of the responses you receive. In this guide, I'll share practical insights on effectively communicating with Claude to get the best possible results.]]></description>
-            <content:encoded><![CDATA[<p>Communication is an art form, and nowhere is this more apparent than when interacting with AI assistants like Claude. Through my recent experimentation and conversations with Claude, I've discovered that how you structure your prompts dramatically impacts the quality and relevance of the responses you receive. In this guide, I'll share practical insights on effectively communicating with Claude to get the best possible results.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-foundations-of-effective-prompting">The Foundations of Effective Prompting<a href="https://wiseagent.github.io/blogs/blog/mastering-the-art-of-claude-prompting-from-basic-requests-to-complex-solutions#the-foundations-of-effective-prompting" class="hash-link" aria-label="Direct link to The Foundations of Effective Prompting" title="Direct link to The Foundations of Effective Prompting">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="be-clear-and-specific">Be Clear and Specific<a href="https://wiseagent.github.io/blogs/blog/mastering-the-art-of-claude-prompting-from-basic-requests-to-complex-solutions#be-clear-and-specific" class="hash-link" aria-label="Direct link to Be Clear and Specific" title="Direct link to Be Clear and Specific">​</a></h3>
-<p>Claude responds best to prompts that clearly articulate what you want. Vague requests often lead to vague responses. Instead of asking "Can you help with my website?", try "I need assistance designing a mobile-first React website with specific navigation requirements."</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="provide-context">Provide Context<a href="https://wiseagent.github.io/blogs/blog/mastering-the-art-of-claude-prompting-from-basic-requests-to-complex-solutions#provide-context" class="hash-link" aria-label="Direct link to Provide Context" title="Direct link to Provide Context">​</a></h3>
-<p>Context is crucial for Claude to understand the full scope of your request. Include relevant background information about your project, goals, and constraints. This helps Claude tailor responses to your specific situation rather than providing generic advice.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="use-step-by-step-instructions">Use Step-by-Step Instructions<a href="https://wiseagent.github.io/blogs/blog/mastering-the-art-of-claude-prompting-from-basic-requests-to-complex-solutions#use-step-by-step-instructions" class="hash-link" aria-label="Direct link to Use Step-by-Step Instructions" title="Direct link to Use Step-by-Step Instructions">​</a></h3>
-<p>For complex requests, break down what you need into clear, sequential steps. This helps Claude process your request methodically and ensures nothing gets overlooked.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="include-examples">Include Examples<a href="https://wiseagent.github.io/blogs/blog/mastering-the-art-of-claude-prompting-from-basic-requests-to-complex-solutions#include-examples" class="hash-link" aria-label="Direct link to Include Examples" title="Direct link to Include Examples">​</a></h3>
-<p>When possible, provide examples of what you're looking for. This gives Claude a concrete reference point and increases the likelihood of getting a response that matches your expectations.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="advanced-prompting-techniques">Advanced Prompting Techniques<a href="https://wiseagent.github.io/blogs/blog/mastering-the-art-of-claude-prompting-from-basic-requests-to-complex-solutions#advanced-prompting-techniques" class="hash-link" aria-label="Direct link to Advanced Prompting Techniques" title="Direct link to Advanced Prompting Techniques">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="structured-formatting">Structured Formatting<a href="https://wiseagent.github.io/blogs/blog/mastering-the-art-of-claude-prompting-from-basic-requests-to-complex-solutions#structured-formatting" class="hash-link" aria-label="Direct link to Structured Formatting" title="Direct link to Structured Formatting">​</a></h3>
-<p>One of the most effective techniques I've discovered is using structured formatting in prompts. This can be done using either Markdown or plain text with clear organization:</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="markdown-example">Markdown Example:<a href="https://wiseagent.github.io/blogs/blog/mastering-the-art-of-claude-prompting-from-basic-requests-to-complex-solutions#markdown-example" class="hash-link" aria-label="Direct link to Markdown Example:" title="Direct link to Markdown Example:">​</a></h4>
-<div class="language-markdown codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-markdown codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token title important punctuation" style="color:#393A34">#</span><span class="token title important"> Project Title</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token title important punctuation" style="color:#393A34">##</span><span class="token title important"> Context</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Brief background information</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token title important punctuation" style="color:#393A34">##</span><span class="token title important"> Requirements</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Requirement 1</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Requirement 2</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token title important punctuation" style="color:#393A34">##</span><span class="token title important"> Deliverables</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">1.</span><span class="token plain"> First deliverable</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">2.</span><span class="token plain"> Second deliverable</span><br></span></code></pre></div></div>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="plain-text-alternative">Plain Text Alternative:<a href="https://wiseagent.github.io/blogs/blog/mastering-the-art-of-claude-prompting-from-basic-requests-to-complex-solutions#plain-text-alternative" class="hash-link" aria-label="Direct link to Plain Text Alternative:" title="Direct link to Plain Text Alternative:">​</a></h4>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">PROJECT TITLE</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">CONTEXT:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Brief background information</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">REQUIREMENTS:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Requirement 1</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Requirement 2</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">DELIVERABLES:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">1. First deliverable</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2. Second deliverable</span><br></span></code></pre></div></div>
-<p>Both approaches create visual hierarchy that helps Claude parse and understand different components of your request.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="specify-personas-or-voice">Specify Personas or Voice<a href="https://wiseagent.github.io/blogs/blog/mastering-the-art-of-claude-prompting-from-basic-requests-to-complex-solutions#specify-personas-or-voice" class="hash-link" aria-label="Direct link to Specify Personas or Voice" title="Direct link to Specify Personas or Voice">​</a></h3>
-<p>If you need Claude to respond in a particular tone or style, explicitly request it. For example: "Please explain this concept as if you were teaching a 10-year-old" or "Write this in the style of a formal business proposal."</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="request-reasoning">Request Reasoning<a href="https://wiseagent.github.io/blogs/blog/mastering-the-art-of-claude-prompting-from-basic-requests-to-complex-solutions#request-reasoning" class="hash-link" aria-label="Direct link to Request Reasoning" title="Direct link to Request Reasoning">​</a></h3>
-<p>For complex tasks, ask Claude to explain its thinking or approach. This not only gives you insight into how Claude arrived at its response but often results in more thoughtful and comprehensive answers.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="case-study-before-and-after">Case Study: Before and After<a href="https://wiseagent.github.io/blogs/blog/mastering-the-art-of-claude-prompting-from-basic-requests-to-complex-solutions#case-study-before-and-after" class="hash-link" aria-label="Direct link to Case Study: Before and After" title="Direct link to Case Study: Before and After">​</a></h2>
-<p>Let's look at how reformatting a prompt can dramatically improve results:</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="original-prompt">Original Prompt:<a href="https://wiseagent.github.io/blogs/blog/mastering-the-art-of-claude-prompting-from-basic-requests-to-complex-solutions#original-prompt" class="hash-link" aria-label="Direct link to Original Prompt:" title="Direct link to Original Prompt:">​</a></h3>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">I'm designing a mobile-first responsive website and need your help.  </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Here's what I'm envisioning:  </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Framework: React  </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Styling: Bootstrap  </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Features:  </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  - A summary pane at the top with placeholder content.  </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  - A navigation pane that adapts to screen sizes.  </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  - A content pane with two resizable columns on large screens and two stacked rows on smaller screens.  </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Please ensure the layout fits within the viewport without scrollbars.  </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Can you provide a detailed plan or code snippets to achieve this?</span><br></span></code></pre></div></div>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="improved-prompt">Improved Prompt:<a href="https://wiseagent.github.io/blogs/blog/mastering-the-art-of-claude-prompting-from-basic-requests-to-complex-solutions#improved-prompt" class="hash-link" aria-label="Direct link to Improved Prompt:" title="Direct link to Improved Prompt:">​</a></h3>
-<div class="language-markdown codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-markdown codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token title important punctuation" style="color:#393A34">#</span><span class="token title important"> Mobile-First Responsive Website Design with React and Bootstrap</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token title important punctuation" style="color:#393A34">##</span><span class="token title important"> Project Overview</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">I'm designing a mobile-first responsive website using React and Bootstrap, and need a detailed implementation plan.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token title important punctuation" style="color:#393A34">##</span><span class="token title important"> Technical Requirements</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> </span><span class="token bold punctuation" style="color:#393A34">**</span><span class="token bold content">Framework:</span><span class="token bold punctuation" style="color:#393A34">**</span><span class="token plain"> React</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> </span><span class="token bold punctuation" style="color:#393A34">**</span><span class="token bold content">Styling:</span><span class="token bold punctuation" style="color:#393A34">**</span><span class="token plain"> Bootstrap</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> </span><span class="token bold punctuation" style="color:#393A34">**</span><span class="token bold content">Responsive Design:</span><span class="token bold punctuation" style="color:#393A34">**</span><span class="token plain"> Mobile-first approach with adaptive layouts</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token title important punctuation" style="color:#393A34">##</span><span class="token title important"> Key Components</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token title important punctuation" style="color:#393A34">###</span><span class="token title important"> Summary Pane</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Positioned at the top of the page</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Contains placeholder content</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Fully responsive across all device sizes</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token title important punctuation" style="color:#393A34">###</span><span class="token title important"> Navigation Pane</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Adapts based on screen size:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Dropdown menu on mobile devices</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Collapsed sidebar on medium screens</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Expanded sidebar on large screens</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token title important punctuation" style="color:#393A34">###</span><span class="token title important"> Content Pane</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Layout changes based on viewport:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Large screens: Two resizable side-by-side columns</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Small screens: Two stacked rows</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token title important punctuation" style="color:#393A34">##</span><span class="token title important"> Critical Constraints</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Layout must fit within the viewport without triggering horizontal or vertical scrollbars</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> All components must maintain functionality across device sizes</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token title important punctuation" style="color:#393A34">##</span><span class="token title important"> Deliverables</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">1.</span><span class="token plain"> Detailed implementation plan with component breakdown</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">2.</span><span class="token plain"> Code snippets demonstrating key responsive features</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">3.</span><span class="token plain"> Recommendations for handling the resizable columns feature</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Please provide specific code examples and implementation details to achieve this responsive design.</span><br></span></code></pre></div></div>
-<p>The improved version:</p>
-<ul>
-<li>Adds a clear title</li>
-<li>Organizes requirements into logical sections</li>
-<li>Provides specific details about each component</li>
-<li>Clearly states constraints and deliverables</li>
-<li>Creates a visual hierarchy that makes the request easier to parse</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="when-to-use-which-format">When to Use Which Format<a href="https://wiseagent.github.io/blogs/blog/mastering-the-art-of-claude-prompting-from-basic-requests-to-complex-solutions#when-to-use-which-format" class="hash-link" aria-label="Direct link to When to Use Which Format" title="Direct link to When to Use Which Format">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="markdown-is-ideal-for">Markdown is ideal for:<a href="https://wiseagent.github.io/blogs/blog/mastering-the-art-of-claude-prompting-from-basic-requests-to-complex-solutions#markdown-is-ideal-for" class="hash-link" aria-label="Direct link to Markdown is ideal for:" title="Direct link to Markdown is ideal for:">​</a></h3>
-<ul>
-<li>Complex, multi-part requests</li>
-<li>Technical documentation or guides</li>
-<li>Requests requiring clear visual hierarchy</li>
-<li>Situations where you want to emphasize certain elements</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="plain-text-works-well-for">Plain text works well for:<a href="https://wiseagent.github.io/blogs/blog/mastering-the-art-of-claude-prompting-from-basic-requests-to-complex-solutions#plain-text-works-well-for" class="hash-link" aria-label="Direct link to Plain text works well for:" title="Direct link to Plain text works well for:">​</a></h3>
-<ul>
-<li>Simpler requests</li>
-<li>When you prefer a more minimalist approach</li>
-<li>Situations where you're more comfortable with traditional formatting</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a href="https://wiseagent.github.io/blogs/blog/mastering-the-art-of-claude-prompting-from-basic-requests-to-complex-solutions#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
-<p>Effective communication with Claude is about clarity, structure, and specificity. By applying these prompting techniques, you can significantly improve the quality and relevance of Claude's responses. Whether you prefer Markdown or plain text formatting, the key is to organize your thoughts in a way that makes it easy for Claude to understand exactly what you need.</p>
-<p>Remember that effective prompting is an iterative process. Don't hesitate to refine your approach based on the responses you receive. With practice, you'll develop a communication style that consistently yields excellent results from Claude.</p>
-<p>Happy prompting!</p>]]></content:encoded>
-            <category>AI</category>
-            <category>Prompt Engineering</category>
-            <category>Claude</category>
         </item>
     </channel>
 </rss>
