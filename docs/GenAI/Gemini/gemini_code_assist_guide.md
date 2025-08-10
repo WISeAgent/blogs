@@ -13,7 +13,7 @@ sidebar_label: "Gemini Code Assist Guide"
 1. [Introduction](#introduction)
 2. [Core Capabilities](#core-capabilities)
 3. [Getting Started](#getting-started)
-4. [Hands-On Walkthrough](#hands-on-walkthrough)
+4. [Hands-On Walkthrough](#hands-on-walkthrough-from-function-to-production)
 5. [Advanced Features & Best Practices](#advanced-features--best-practices)
 6. [Common Pitfalls & How to Avoid Them](#common-pitfalls--how-to-avoid-them)
 7. [Language & IDE Support](#language--ide-support)
@@ -45,7 +45,7 @@ Gemini Code Assist operates on several key principles that distinguish it from s
 
 Unlike tools that only analyze the current line, Gemini Code Assist:
 - Analyzes your entire project structure and open files
-- Understands your coding patterns and project conventions  
+- Understands your coding patterns and project conventions
 - Provides suggestions that fit seamlessly with your existing codebase
 - For enterprise users, can be grounded in private organizational codebases
 
@@ -246,7 +246,7 @@ This walkthrough illustrates Gemini Code Assist's power in accelerating developm
 ### Learning-Focused Usage
 
 - Ask questions about code in natural language to build understanding
-- Request alternative implementations to learn different approaches  
+- Request alternative implementations to learn different approaches
 - Ask for explanations of performance implications and trade-offs
 - Use the chat interface to get contextual help about your specific codebase
 
