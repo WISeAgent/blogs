@@ -10,7 +10,6 @@
 7. [Production Considerations](#7-production-considerations)
 8. [Common Pitfalls and Solutions](#8-common-pitfalls-and-solutions)
 9. [Evaluation and Optimization](#9-evaluation-and-optimization)
-10. [Future Directions](#10-future-directions)
 
 ---
 
