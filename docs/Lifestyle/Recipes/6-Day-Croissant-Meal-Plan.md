@@ -34,4 +34,3 @@ tags: [croissant, meal-plan, recipes, baking, storage, breakfast, lunch, dessert
 - **Reheat frozen croissants** in the oven at 160°C for 5–10 minutes to restore crispness.
 - **Use stale croissants** creatively for French toast or bread pudding.
 - **Add variety** with fillings like smoked salmon, scrambled eggs, or roasted veggies.
-
