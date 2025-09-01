@@ -1,3 +1,12 @@
+---
+title: "Ditch Static Images – Embed Live Diagrams Directly in Your Markdown with Mermaid.js"
+description: "A practical guide to using Mermaid.js for live, version-controlled diagrams in Markdown—no more outdated screenshots or broken image links."
+slug: mermaid-language-guide
+date: 2025-07-28
+authors: [wiseagent]
+tags: [mermaid, diagrams, markdown, documentation, visualization, techsavvy]
+---
+
 # Ditch Static Images – Embed Live Diagrams Directly in Your Markdown with Mermaid.js
 
 ## 🧠 TL;DR - Live Diagrams Beat Static Images
@@ -69,7 +78,7 @@ flowchart TD
 - Showing a process or system? → `flowchart`
 - Documenting API interactions? → `sequenceDiagram`
 - Planning project phases? → `gantt`
-- Modeling data relationships? → `erDiagram`
+- Modelling data relationships? → `erDiagram`
 
 ## 🏗️ Master the Fundamentals
 

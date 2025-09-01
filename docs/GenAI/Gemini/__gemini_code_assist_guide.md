@@ -86,7 +86,7 @@ Here's how Code Assist, guided by its internal process, might handle it:
     1. Find and read the contact form component.
     2. Modify it to add a `isSubmitting` state variable.
     3. Use this state to disable the button.
-    4. Find the relevant test file and add a new test for this behavior."
+    4. Find the relevant test file and add a new test for this behaviour."
 2. **Act (Tools):**
     * Uses `glob` to find the file: `**/*ContactForm*.js`.
     * Uses `read_file` to read the component's content.

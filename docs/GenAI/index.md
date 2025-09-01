@@ -1,6 +1,6 @@
 ---
 id: GenAI
-title: GenAI Documentation
+title: Generative AI
 ---
 
 # GenAI

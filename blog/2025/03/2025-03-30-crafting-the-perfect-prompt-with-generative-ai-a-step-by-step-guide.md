@@ -64,9 +64,9 @@ Can you walk me through the design process, starting with component structure?
 ### 3. **DALL-E/Midjourney**
 For visual prompts, focus on specific design elements:
 ```
-Create a modern, minimalist website mockup with:
+Create a modern, minimalist website mock-up with:
 - Clean navigation bar at top
-- Hero section with centered content
+- Hero section with centred content
 - Two-column layout below
 Style: Material Design, blue and white color scheme
 View: Desktop version

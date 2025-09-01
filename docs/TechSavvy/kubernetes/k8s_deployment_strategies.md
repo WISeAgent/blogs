@@ -88,7 +88,7 @@ helm install myapp ./chart \
 
 **Template Debugging is Painful**: Use `helm template` religiously before deploying. The error messages when templates fail are cryptic at best.
 
-**Security Considerations**: Chart repositories are essentially software repositories. Treat them with the same security rigor. Pin versions, scan for vulnerabilities, and don't blindly trust public charts.
+**Security Considerations**: Chart repositories are essentially software repositories. Treat them with the same security rigour. Pin versions, scan for vulnerabilities, and don't blindly trust public charts.
 
 ## GitOps: More Than Just Git
 

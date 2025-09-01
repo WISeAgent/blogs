@@ -9,7 +9,7 @@ tags: [gemini, ai, code-assist, development, productivity, programming]
 
 **🚀 Why 73% of developers are still reviewing AI-generated code wrong (and how to fix it)**
 
-I just spent weeks analyzing technical documentation about AI coding assistants, and found a critical gap that's costing teams time and introducing bugs.
+I just spent weeks analysing technical documentation about AI coding assistants, and found a critical gap that's costing teams time and introducing bugs.
 
 Here's what most developers get wrong:
 

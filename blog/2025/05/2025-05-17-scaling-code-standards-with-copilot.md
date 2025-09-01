@@ -154,7 +154,7 @@ After implementing repository-specific instructions across our team, we tracked 
 
 **Onboarding Speed:** New developers start contributing meaningful code within days instead of weeks, because Copilot teaches them our patterns as they work.
 
-**Consistency Across Codebases:** When we analyzed code quality metrics, variation in error handling patterns decreased by 75% across our microservices.
+**Consistency Across Codebases:** When we analysed code quality metrics, variation in error handling patterns decreased by 75% across our microservices.
 
 ## Common Pitfalls and Solutions
 
@@ -178,7 +178,7 @@ For senior developers, this means your expertise scales beyond your direct mento
 
 ## Looking Forward
 
-The ability to customize Copilot's behavior at the repository level is just the beginning. As these tools evolve, we'll likely see even more sophisticated ways to encode team knowledge and architectural decisions.
+The ability to customize Copilot's behaviour at the repository level is just the beginning. As these tools evolve, we'll likely see even more sophisticated ways to encode team knowledge and architectural decisions.
 
 The teams that invest time now in thoughtfully crafting their repository instructions will have a significant advantage. They're not just using AI to code faster—they're using it to ensure that faster coding maintains the quality and consistency that makes software maintainable.
 

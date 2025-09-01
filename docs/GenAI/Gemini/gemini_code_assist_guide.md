@@ -44,7 +44,7 @@ Gemini Code Assist operates on several key principles that distinguish it from s
 ### 1. Contextual Intelligence
 
 Unlike tools that only analyze the current line, Gemini Code Assist:
-- Analyzes your entire project structure and open files
+- Analyses your entire project structure and open files
 - Understands your coding patterns and project conventions
 - Provides suggestions that fit seamlessly with your existing codebase
 - For enterprise users, can be grounded in private organizational codebases

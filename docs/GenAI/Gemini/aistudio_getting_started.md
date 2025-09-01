@@ -108,7 +108,7 @@ def calculate_average(numbers):
 ### Multimodal Capabilities
 
 **Image Analysis:**
-1. Upload an image (architectural diagram, UI mockup, etc.)
+1. Upload an image (architectural diagram, UI mock-up, etc.)
 2. Ask: "Analyze this design and suggest improvements"
 3. Enhanced multimodal capabilities for developers to build sophisticated AI apps
 
@@ -176,7 +176,7 @@ print(response.text)
 ### ✅ **Do:**
 
 - **Start simple**: Begin with basic prompts, then add complexity incrementally
-- **Use system instructions**: Establish consistent behavior and output format
+- **Use system instructions**: Establish consistent behaviour and output format
 - **Test edge cases**: Validate with malformed inputs and boundary conditions
 - **Version your prompts**: Use AI Studio's built-in versioning for iteration tracking
 - **Monitor token usage**: Optimize prompts to balance quality and cost

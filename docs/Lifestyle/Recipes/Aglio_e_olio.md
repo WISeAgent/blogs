@@ -27,7 +27,7 @@ gi
 4. Spaghetti alle Vongole
 Ingredients: Clams, garlic, white wine, parsley, chili flakes.
 
-Technique: The juices released from the clams are emulsified with olive oil and pasta water to create a briny, flavorful sauce.
+Technique: The juices released from the clams are emulsified with olive oil and pasta water to create a briny, flavourful sauce.
 
 5. Puttanesca
 Ingredients: Tomatoes, olives, capers, anchovies, garlic, chili flakes.

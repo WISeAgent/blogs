@@ -14,7 +14,7 @@ tags: [github-copilot, ai-tools, developer-productivity, vscode, coding-tools]
 ## My First Week with Copilot
 <!--truncate-->
 
-Last month, I was skeptical about AI coding tools. Like many developers, I worried about becoming too dependent on automated suggestions or losing touch with fundamental programming skills. Then I spent a week building a REST API with GitHub Copilot, and my perspective shifted entirely.
+Last month, I was sceptical about AI coding tools. Like many developers, I worried about becoming too dependent on automated suggestions or losing touch with fundamental programming skills. Then I spent a week building a REST API with GitHub Copilot, and my perspective shifted entirely.
 
 The difference wasn't just speed—though I did write code faster. It was the cognitive load. Instead of mentally switching between "what do I want to accomplish?" and "how do I implement this in JavaScript?", I could focus on the former while Copilot handled much of the latter. The result felt less like using a tool and more like having a knowledgeable colleague who never gets tired of writing boilerplate code.
 

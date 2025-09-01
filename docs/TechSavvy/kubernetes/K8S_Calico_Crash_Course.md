@@ -1,5 +1,10 @@
 ---
 title: "Kubernetes Calico Crash Course"
+description: "A hands-on guide to Calico networking in Kubernetes: installation, core components, pod-to-pod communication, network policies, advanced features, and troubleshooting."
+slug: k8s-calico-crash-course
+date: 2025-07-28
+authors: [wiseagent]
+tags: [kubernetes, calico, networking, cloudnative, devops, containers, techsavvy]
 sidebar_label: "Calico Crash Course"
 sidebar_position: 2
 ---
@@ -225,7 +230,7 @@ This implementation enables near line-rate performance (< 1ms latency) while mai
 
 ``` bash
 # Inspect interfaces
-ip link show | grep cali
+ip link show | grep calico
 
 # View BGP peers
 birdcl -s /var/run/calico/bird.ctl show protocols

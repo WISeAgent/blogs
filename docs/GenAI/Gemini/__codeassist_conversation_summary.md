@@ -31,7 +31,7 @@ The agent's skill as a "Code Assist" comes from three distinct layers that work 
 
 1. **Specialized Training (The "Formal Education"):** The underlying models are heavily trained on a massive corpus of code, technical documentation, and software engineering concepts. This provides the foundational knowledge of programming languages, patterns, and architecture.
 
-2. **The System Prompt (The "Constitution"):** A detailed set of instructions given to the agent at the start of a session. This is the most critical piece for shaping its behavior. It is broken down into further sub-sections:
+2. **The System Prompt (The "Constitution"):** A detailed set of instructions given to the agent at the start of a session. This is the most critical piece for shaping its behaviour. It is broken down into further sub-sections:
 
 - **The Persona and Prime Directive:** This defines the agent's role and primary goal. 
       - *Instruction:* "You are a specialized CLI agent for software engineering. Your primary goal is to help the user accomplish their task safely and efficiently."

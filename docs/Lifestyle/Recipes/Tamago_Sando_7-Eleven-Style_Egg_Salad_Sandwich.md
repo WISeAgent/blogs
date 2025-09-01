@@ -5,6 +5,9 @@ layout: post.njk
 category: Lifestyle
 parent: /Lifestyle/Recipes/
 parentTitle: /Lifestyle/Recipes/
+slug: tamago-sando-7-eleven-style-egg-salad-sandwich
+authors: [wiseagent]
+tags: [recipe, sandwich, egg, tamago sando, japanese]
 ---
 # Tamago Sando: 7-Eleven-Style Egg Salad Sandwich
 
@@ -30,10 +33,10 @@ parentTitle: /Lifestyle/Recipes/
 4. **Serve**  
    Trim off the crusts if desired, and cut the sandwich in half diagonally to make two triangles. Enjoy your homemade Tamago Sando!
 
-> **Note:** You can customize your sandwich by adding finely chopped herbs, like chives or parsley, for an extra burst of flavor.
+> **Note:** You can customize your sandwich by adding finely chopped herbs, like chives or parsley, for an extra burst of flavour.
 
 ## Tips for the Perfect Tamago Sando
-- Use **fresh, high-quality eggs** for the best flavor.
+- Use **fresh, high-quality eggs** for the best flavour.
 - **Chill the egg salad** for a bit before assembling the sandwich for easier handling.
 - If you can't find Japanese milk bread, use the softest, freshest white bread available.
 
