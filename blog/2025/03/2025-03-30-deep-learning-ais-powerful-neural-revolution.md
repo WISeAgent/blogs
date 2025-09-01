@@ -20,7 +20,7 @@ In our AI evolution series, we've journeyed from symbolic systems and early neur
 
 Deep learning is a paradigm shift. Traditional machine learning often relies on manually engineered features, but deep neural networks automatically learn hierarchical representations from raw data. Think of it like a child learning to recognize a car: first, they notice basic shapes and colors; then, they identify wheels and windows; eventually, they can distinguish specific models. Similarly, early layers of a deep network capture simple edges and textures, while deeper layers learn complex objects and concepts.
 
-This revolution has been fueled by:
+This revolution has been fuelLed by:
 - **Massive Datasets:** Rich training examples that enable nuanced learning.
 - **Hardware Acceleration:** GPUs and TPUs that power complex computations.
 
@@ -46,7 +46,7 @@ Deep learning is transforming industries:
 - **Manufacturing:** Quality control and predictive maintenance
 - **Finance:** Fraud detection and algorithmic trading
 - **Entertainment:** Content recommendations and AI-generated art
-- **Science:** Drug discovery and climate modeling
+- **Science:** Drug discovery and climate modelling
 
 ### 5. Ongoing Challenges and Future Directions
 

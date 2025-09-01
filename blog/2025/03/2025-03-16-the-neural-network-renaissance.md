@@ -25,7 +25,7 @@ ANNs revolutionized computing by learning from data rather than following explic
 
 ## Real-World Wins
 
-The impact was swift. Neural networks powered handwriting recognition, revolutionizing mail sorting, while early voice systems hinted at future assistants. These weren't just theories—they solved problems, fueling innovation.
+The impact was swift. Neural networks powered handwriting recognition, revolutionizing mail sorting, while early voice systems hinted at future assistants. These weren't just theories—they solved problems, fuelling innovation.
 
 ![Neural Network Sample](/img/ProfessionalMusings/ANN_samplepage.png)
 

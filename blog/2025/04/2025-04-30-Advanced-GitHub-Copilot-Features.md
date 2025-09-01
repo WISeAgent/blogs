@@ -129,7 +129,7 @@ Copilot may miss subtle requirements (e.g., timeout handling) unless specified. 
 
 Agent Mode (part of Copilot Workspace) autonomously handles multi-step tasks, acting like a virtual collaborator.
 
-### Example: Creating a File Analyzer
+### Example: Creating a File Analyser
 
 Prompt:  
 ```
@@ -203,4 +203,4 @@ Stay tuned for more!
 
 GitHub Copilot’s Ask Mode, Edit Mode, and Agent Mode make it more than a code completer—they make it a partner. By asking smart questions, refining code effortlessly, and automating complex tasks, you can work faster and smarter. Try these features, tweak your approach, and see how far AI can take your development.
 
-*What’s your favorite Copilot trick? Let us know below!*
+*What’s your favourite Copilot trick? Let us know below!*

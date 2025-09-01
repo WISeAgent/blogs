@@ -12,7 +12,7 @@ tags:
 
 # Brace Yourself for AI, or Risk Being Replaced With AI
 
-Picture this: your car navigates rush-hour traffic autonomously, your medical scan receives near-instant AI analysis, and your favorite tune is co-written by an algorithm. This isn't science fiction—it's our emerging reality. Artificial intelligence is transforming society at breakneck speed, offering extraordinary promise while raising legitimate concerns about job displacement and human purpose.
+Picture this: your car navigates rush-hour traffic autonomously, your medical scan receives near-instant AI analysis, and your favourite tune is co-written by an algorithm. This isn't science fiction—it's our emerging reality. Artificial intelligence is transforming society at breakneck speed, offering extraordinary promise while raising legitimate concerns about job displacement and human purpose.
 
 <!--truncate-->
 

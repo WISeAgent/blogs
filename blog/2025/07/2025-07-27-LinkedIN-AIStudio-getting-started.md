@@ -19,7 +19,7 @@ No more wrestling with environment setup, dependency hell, or authentication hea
 
 True Multimodal Power:
 <!--truncate-->
-Upload images, videos, or audio files directly into your prompts. I tested this with architectural diagrams, UI mockups, and even YouTube tutorials - the context understanding is remarkable.
+Upload images, videos, or audio files directly into your prompts. I tested this with architectural diagrams, UI mock-ups, and even YouTube tutorials - the context understanding is remarkable.
 
 Production-Ready from Day One:
 

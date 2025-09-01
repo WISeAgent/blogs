@@ -2,9 +2,8 @@
 title: "Maple Blueberry Rice Yogurt"
 date: 2025-03-09
 slug: maple-blueberry-rice-yogurt
-tags:
-  - Lifestyle
-  - Recipes
+authors: [wiseagent]
+tags: [recipe, yogurt, maple, blueberry, rice]
 ---
 
 # Maple Blueberry Rice Yogurt
@@ -23,10 +22,10 @@ tags:
    Gently fold in the blueberries.
 
 3. **Chill and Serve**  
-   Chill in the refrigerator and enjoy the burst of sweet and tart flavors.
+   Chill in the refrigerator and enjoy the burst of sweet and tart flavours.
 
 > **Note:** You can use mixed berries for a different twist.
 
 ## Tips
-- Use **fresh blueberries** for the best flavor.
-- **Mash some of the blueberries** for a more intense berry flavor throughout the yogurt.
+- Use **fresh blueberries** for the best flavour.
+- **Mash some of the blueberries** for a more intense berry flavour throughout the yogurt.
