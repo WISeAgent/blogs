@@ -1,16 +1,16 @@
 # Retrieval-Augmented Generation (RAG): A Comprehensive Guide
 
 ## Table of Contents
-1. [Introduction: Why RAG Matters](#introduction-why-rag-matters)
-2. [Core Concepts: How RAG Works](#core-concepts-how-rag-works)
-3. [Technical Architecture](#technical-architecture)
-4. [Implementation Guide](#implementation-guide)
-5. [Real-World Applications](#real-world-applications)
-6. [Advanced Techniques](#advanced-techniques)
-7. [Production Considerations](#production-considerations)
-8. [Common Pitfalls and Solutions](#common-pitfalls-and-solutions)
-9. [Evaluation and Optimization](#evaluation-and-optimization)
-10. [Future Directions](#future-directions)
+1. [Introduction: Why RAG Matters](#1-introduction-why-rag-matters)
+2. [Core Concepts: How RAG Works](#2-core-concepts-how-rag-works)
+3. [Technical Architecture](#3-technical-architecture)
+4. [Implementation Guide](#4-implementation-guide)
+5. [Real-World Applications](#5-real-world-applications)
+6. [Advanced Techniques](#6-advanced-techniques)
+7. [Production Considerations](#7-production-considerations)
+8. [Common Pitfalls and Solutions](#8-common-pitfalls-and-solutions)
+9. [Evaluation and Optimization](#9-evaluation-and-optimization)
+10. [Future Directions](#10-future-directions)
 
 ---
 
