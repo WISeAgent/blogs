@@ -96,7 +96,16 @@
     "Priv",
     "pangram",
     "tagline",
-    "LLMs"
+    "LLMs",
+    "playbook",
+    "LangChain",
+    "Qdrant",
+    "Milvus",
+    "vectorstores",
+    "kwargs",
+    "elif",
+    "pubmed",
+    "numpy"
   ],
   "ignorePaths": [
     "node_modules/**",

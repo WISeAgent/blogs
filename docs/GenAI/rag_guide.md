@@ -1,3 +1,13 @@
+---
+title: "Retrieval-Augmented Generation (RAG): A Comprehensive Guide"
+description: "In-depth guide to Retrieval-Augmented Generation (RAG) for engineers and data scientists—covering core concepts, technical architecture, implementation, advanced techniques, and real-world applications."
+slug: /GenAI/rag-guide
+authors: [wiseagent]
+tags: [rag, retrieval-augmented-generation, llm, ai, genai, architecture, implementation, best-practices]
+sidebar_label: "RAG Comprehensive Guide"
+---
+
+<!-- cspell:ignore arXiv asyncio setex vectorstore levelname asctime Pinecone endswith reranker rerank ndcg tiktoken hexdigest hashlib -->
 # Retrieval-Augmented Generation (RAG): A Comprehensive Guide
 
 ## Table of Contents
@@ -20,7 +30,7 @@ Large Language Models (LLMs) have revolutionized how we interact with informatio
 - **Knowledge cut-off**: Their information is frozen at training time
 - **Hallucination**: They can generate plausible but factually incorrect information
 - **Domain specificity**: They lack access to proprietary or specialized knowledge bases
-
+<!-- truncate -->
 **Retrieval-Augmented Generation (RAG)** addresses these challenges by connecting LLMs to external knowledge sources, enabling them to access current, factual, and domain-specific information before generating responses.
 
 ### Key Benefits
@@ -834,4 +844,54 @@ class RAGEvaluator:
     def evaluate_retrieval_quality(self, queries, retrieved_docs):
         """Evaluate retrieval component quality."""
         metrics = {
-            'precision_at
+            'precision_at_k': self.calculate_precision_at_k(queries, retrieved_docs),
+            'recall_at_k': self.calculate_recall_at_k(queries, retrieved_docs),
+            'mrr': self.calculate_mrr(queries, retrieved_docs),  # Mean Reciprocal Rank
+            'ndcg': self.calculate_ndcg(queries, retrieved_docs)  # Normalized Discounted Cumulative Gain
+        }
+        return metrics
+    
+    def calculate_precision_at_k(self, queries, retrieved_docs, k=5):
+        """Calculate precision@k for retrieval."""
+        precisions = []
+        
+        for query, docs in zip(queries, retrieved_docs):
+            relevant_docs = self.get_relevant_docs(query)
+            retrieved_ids = [doc.metadata.get('id') for doc in docs[:k]]
+            relevant_ids = [doc.metadata.get('id') for doc in relevant_docs]
+            
+            relevant_retrieved = set(retrieved_ids) & set(relevant_ids)
+            precision = len(relevant_retrieved) / k if k > 0 else 0
+            precisions.append(precision)
+        
+        return sum(precisions) / len(precisions)
+    
+    def evaluate_answer_quality(self, questions, generated_answers, reference_answers):
+        """Evaluate generation component quality."""
+        from sentence_transformers import SentenceTransformer
+        import numpy as np
+        
+        # Semantic similarity evaluation
+        model = SentenceTransformer('all-MiniLM-L6-v2')
+        
+        semantic_scores = []
+        for gen_answer, ref_answer in zip(generated_answers, reference_answers):
+            gen_embedding = model.encode([gen_answer])
+            ref_embedding = model.encode([ref_answer])
+            similarity = np.dot(gen_embedding, ref_embedding.T)[0][0]
+            semantic_scores.append(similarity)
+        
+        # Factual accuracy evaluation (using LLM-as-judge)
+        accuracy_scores = []
+        for question, gen_answer, ref_answer in zip(questions, generated_answers, reference_answers):
+            accuracy_score = self.evaluate_factual_accuracy(question, gen_answer, ref_answer)
+            accuracy_scores.append(accuracy_score)
+        
+        return {
+            'semantic_similarity': np.mean(semantic_scores),
+            'factual_accuracy': np.mean(accuracy_scores),
+            'average_length': np.mean([len(answer.split()) for answer in generated_answers])
+        }
+    
+    def evaluate_factual_accuracy(self, question, generated_answer, reference_answer):
+        """Use
