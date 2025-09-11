@@ -1,3 +1,11 @@
+---
+title: "Prompt Engineering: A New Frontier for Engineers in the Age of Generative AI"
+description: "A practical guide for engineers to master prompt engineering with LLMs—covering key concepts, techniques, frameworks, and real-world use cases for maximising generative AI productivity."
+slug: prompt-engineering-genai-perspective
+authors: [wiseagent]
+tags: [prompt-engineering, genai, llm, ai, productivity, engineering, best-practices, frameworks]
+---
+
 # Prompt Engineering: A New Frontier for Engineers in the Age of Generative AI
 
 ## Introduction

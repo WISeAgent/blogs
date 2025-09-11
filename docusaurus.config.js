@@ -94,7 +94,7 @@ const config = {
             items: [
               {
                 type: 'docSidebar',
-                sidebarId: 'tutorialSidebar',
+                sidebarId: 'WISeAgentSidebar',
                 label: 'Documentation Home',
               },
               {
