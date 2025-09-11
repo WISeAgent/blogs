@@ -3,6 +3,6 @@ id: GenAI
 title: Generative AI
 ---
 
-# GenAI
+# Generative AI
 
 Welcome to the GenAI documentation hub!
