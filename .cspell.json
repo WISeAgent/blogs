@@ -95,7 +95,8 @@
     "seasonings",
     "Priv",
     "pangram",
-    "tagline"
+    "tagline",
+    "LLMs"
   ],
   "ignorePaths": [
     "node_modules/**",

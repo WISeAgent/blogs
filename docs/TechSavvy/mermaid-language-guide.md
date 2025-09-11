@@ -7,7 +7,7 @@ authors: [wiseagent]
 tags: [mermaid, diagrams, markdown, documentation, visualization, techsavvy]
 ---
 
-# Ditch Static Images – Embed Live Diagrams Directly in Your Markdown with Mermaid.js
+# Ditch Static Images – Embed Live Mermaid Diagrams Directly
 
 ## 🧠 TL;DR - Live Diagrams Beat Static Images
 
