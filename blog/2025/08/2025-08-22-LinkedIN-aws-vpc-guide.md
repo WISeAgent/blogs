@@ -3,7 +3,7 @@ title: "Why Your AWS VPC is Probably Using the Wrong CIDR Range (And How to Fix 
 description: "A practical guide for AWS architects and DevOps teams on choosing the right VPC CIDR ranges, avoiding common pitfalls, and implementing strategic IP allocation for scalable, conflict-free cloud networking."
 slug: linkedin-aws-vpc-cidr-guide
 authors: [wiseagent]
-tags: [aws, vpc, cidr, cloud-architecture, devops, network-design, best-practices, cloudengineering]
+tags: [aws, vpc, cidr, cloud-architecture, devops, network-design, best-practices, cloud]
 ---
 
 🎯 **Why Your AWS VPC is Probably Using the Wrong CIDR Range (And How to Fix It)**
