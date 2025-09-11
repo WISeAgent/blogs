@@ -55,6 +55,6 @@ What CIDR strategy does your organization use? Drop your approach in the comment
 
 Want the complete VPC architecture guide with CloudFormation templates and troubleshooting playbook? 
 
-Full technical deep-dive here 👉https://wiseagent.github.io/blogs/docs/AWS/aws-vpc-guide
+👉[Full technical deep-dive here](https://wiseagent.github.io/blogs/docs/AWS/aws-vpc-guide)
 
  #AWS #CloudArchitecture #DevOps #NetworkDesign #VPC #CloudEngineering #TechnicalLeadership
