@@ -2,11 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://WISeAgent.github.io/blogs/blog</id>
     <title>WISeAgent Documentation Blog</title>
-    <updated>2025-07-28T00:00:00.000Z</updated>
+    <updated>2025-09-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://WISeAgent.github.io/blogs/blog"/>
     <subtitle>WISeAgent Documentation Blog</subtitle>
     <icon>https://WISeAgent.github.io/blogs/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[GitHub Copilot Enterprise: Strategic Guide to Multi-Model AI Selection]]></title>
+        <id>https://WISeAgent.github.io/blogs/blog/linkedin-github-copilot-llms</id>
+        <link href="https://WISeAgent.github.io/blogs/blog/linkedin-github-copilot-llms"/>
+        <updated>2025-09-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A practical framework for enterprise teams to select and govern 13+ AI models in GitHub Copilot Enterprise, including cost multipliers, model tiers, and real-world productivity strategies as of September 2025.]]></summary>
+        <content type="html"><![CDATA[<p>🎯 <strong>GitHub Copilot Enterprise just unleashed 13+ AI models - here's your strategic guide to choosing the right one</strong></p>
+<p>The AI coding landscape just got a massive upgrade.</p>
+<p>GitHub Copilot Enterprise now supports models from OpenAI, Anthropic, Google, and xAI. But here's what most teams are getting wrong: treating all AI models the same.</p>
+<p>🧠 <strong>After deep-diving into enterprise implementations, here's the framework that actually works:</strong></p>
+<p><strong>Tier 1: Production Workhorses (Daily Use)</strong>
+• GPT-4.1 → New default, 40% faster than GPT-4o, perfect for code reviews and documentation
+• Claude Sonnet 3.5 → Rock-solid instruction-following, ideal baseline for most teams
+• Gemini 2.0 Flash → 0.25x cost multiplier, unbeatable for UI/visual debugging</p>
+<p><strong>Tier 2: Specialized Reasoning (Complex Tasks)</strong>
+• Claude Sonnet 4 → Powers next-gen coding agents, excellent architecture planning
+• GPT-5 mini → Enhanced step-by-step analysis, perfect for interactive debugging
+• Claude Sonnet 3.7 Thinking → Transparent reasoning chains, great for compliance scenarios
+• o3 → Algorithmic reasoning specialist for system-level debugging</p>
+<p><strong>Tier 3: Frontier Intelligence (Strategic Use)</strong>
+• Claude Opus 4.1 → 5x multiplier but near-zero errors in autonomous coding
+• GPT-5 → Multi-step problem-solving powerhouse for senior engineers
+• Gemini 2.5 Pro → Long-context analysis champion for research workflows</p>
+<p>💡 <strong>The enterprise reality check:</strong></p>
+<p>Cost multipliers range from 0.25x to 5x your base subscription. Smart organizations are implementing "model governance":</p>
+<p>✅ Use premium models (Opus variants) for mission-critical architecture decisions
+✅ Keep daily workflows on efficient 1x multiplier models
+✅ Frontend teams default to Gemini 2.0 Flash for visual tasks
+✅ Create role-based access (junior devs on GPT-4.1, seniors get Opus access)</p>
+<p><strong>The game-changing insight:</strong> Different models excel at different cognitive tasks. Claude excels at reasoning depth, OpenAI at balanced performance, Google at multimodal analysis.</p>
+<p><strong>Preview model strategy:</strong> Models like GPT-5 and Opus 4.1 offer cutting-edge capabilities but need careful production evaluation.</p>
+<p>Your model selection strategy could be the difference between 3x developer productivity gains vs. budget drain with minimal ROI.</p>
+<p>The teams winning are those treating AI model selection like infrastructure decisions - strategic, measured, and aligned with specific use cases.</p>
+<p>What's your team's experience with multi-model AI workflows? Are you optimising for speed, reasoning depth, or cost efficiency?</p>
+<p>🔗 Complete enterprise model analysis and selection framework: 👉 <a href="https://wiseagent.github.io/blogs/docs/GenAI/GithubCopilot/github_copilot_models_guide" target="_blank" rel="noopener noreferrer">GitHub Copilot Available AI Models Guide</a></p>
+<p>#GitHubCopilot #AI #SoftwareDevelopment #EnterpriseAI #DeveloperProductivity #TechLeadership</p>]]></content>
+        <author>
+            <name>WISeAgent</name>
+            <uri>https://github.com/WISeAgent</uri>
+        </author>
+        <category label="github-copilot" term="github-copilot"/>
+        <category label="ai-models" term="ai-models"/>
+        <category label="enterprise" term="enterprise"/>
+        <category label="productivity" term="productivity"/>
+        <category label="openai" term="openai"/>
+        <category label="anthropic" term="anthropic"/>
+        <category label="gemini" term="gemini"/>
+        <category label="xai" term="xai"/>
+        <category label="model-selection" term="model-selection"/>
+        <category label="tech-leadership" term="tech-leadership"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Gemini Code Assist: Your AI Pair Programmer]]></title>
         <id>https://WISeAgent.github.io/blogs/blog/gemini-code-assist-guide</id>
@@ -1105,131 +1156,5 @@ For each AI opportunity, ask: "Are we trying to predict something or create some
         <category label="AI" term="AI"/>
         <category label="Generative AI" term="Generative AI"/>
         <category label="Deep Learning" term="Deep Learning"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Crafting the Perfect Prompt with Generative AI: A Step-by-Step Guide]]></title>
-        <id>https://WISeAgent.github.io/blogs/blog/crafting-the-perfect-prompt-with-generative-ai-a-step-by-step-guide</id>
-        <link href="https://WISeAgent.github.io/blogs/blog/crafting-the-perfect-prompt-with-generative-ai-a-step-by-step-guide"/>
-        <updated>2025-03-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Generative AI is a powerful tool for transforming ideas into reality. The key to unlocking its full potential lies in crafting effective prompts. In this guide, we'll explore how to create prompts that maximize the capabilities of Generative AI, using a practical example: building a mobile-first responsive website.]]></summary>
-        <content type="html"><![CDATA[<p>Generative AI is a powerful tool for transforming ideas into reality. The key to unlocking its full potential lies in crafting effective prompts. In this guide, we'll explore how to create prompts that maximize the capabilities of Generative AI, using a practical example: building a mobile-first responsive website.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-use-generative-ai-for-prompt-crafting">Why Use Generative AI for Prompt Crafting?<a href="https://wiseagent.github.io/blogs/blog/crafting-the-perfect-prompt-with-generative-ai-a-step-by-step-guide#why-use-generative-ai-for-prompt-crafting" class="hash-link" aria-label="Direct link to Why Use Generative AI for Prompt Crafting?" title="Direct link to Why Use Generative AI for Prompt Crafting?">​</a></h2>
-<p>Generative AI can help you refine your ideas step by step, turning vague concepts into actionable blueprints. For instance, you might start with a simple request like "build a responsive website." From there, you can iteratively add details—dynamic navigation, responsive panes, preferred frameworks, and styling choices. This collaborative process ensures your prompt evolves into a clear and effective instruction.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-tailored-prompts-matter">Why Tailored Prompts Matter<a href="https://wiseagent.github.io/blogs/blog/crafting-the-perfect-prompt-with-generative-ai-a-step-by-step-guide#why-tailored-prompts-matter" class="hash-link" aria-label="Direct link to Why Tailored Prompts Matter" title="Direct link to Why Tailored Prompts Matter">​</a></h2>
-<p>Different AI models have different strengths and ways of processing information. A well-crafted prompt:</p>
-<ul>
-<li>Aligns with the model's capabilities</li>
-<li>Structures information logically</li>
-<li>Provides necessary context</li>
-<li>Sets clear expectations</li>
-<li>Enables iterative refinement</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tailored-prompts-for-specific-generative-ai-platforms">Tailored Prompts for Specific Generative AI Platforms<a href="https://wiseagent.github.io/blogs/blog/crafting-the-perfect-prompt-with-generative-ai-a-step-by-step-guide#tailored-prompts-for-specific-generative-ai-platforms" class="hash-link" aria-label="Direct link to Tailored Prompts for Specific Generative AI Platforms" title="Direct link to Tailored Prompts for Specific Generative AI Platforms">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-gpt-4">1. <strong>GPT-4</strong><a href="https://wiseagent.github.io/blogs/blog/crafting-the-perfect-prompt-with-generative-ai-a-step-by-step-guide#1-gpt-4" class="hash-link" aria-label="Direct link to 1-gpt-4" title="Direct link to 1-gpt-4">​</a></h3>
-<p>GPT-4 excels at understanding context and generating detailed, nuanced responses. For our website example:</p>
-<div class="language-markdown codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-markdown codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Task: Design a mobile-first responsive website</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Framework: React with TypeScript</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Design Requirements:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">1.</span><span class="token plain"> Navigation component that adapts to screen size</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">2.</span><span class="token plain"> Content area with dynamic layout</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">3.</span><span class="token plain"> Accessibility features</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Please provide:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">1.</span><span class="token plain"> Component structure</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">2.</span><span class="token plain"> Key React hooks to use</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">3.</span><span class="token plain"> TypeScript interfaces</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">4.</span><span class="token plain"> Responsive design approach</span><br></span></code></pre></div></div>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-chatgpt">2. <strong>ChatGPT</strong><a href="https://wiseagent.github.io/blogs/blog/crafting-the-perfect-prompt-with-generative-ai-a-step-by-step-guide#2-chatgpt" class="hash-link" aria-label="Direct link to 2-chatgpt" title="Direct link to 2-chatgpt">​</a></h3>
-<p>ChatGPT benefits from conversational, step-by-step prompts:</p>
-<div class="language-markdown codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-markdown codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">I need help designing a responsive website.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Key requirements:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">1.</span><span class="token plain"> React framework</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">2.</span><span class="token plain"> Mobile-first approach</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">3.</span><span class="token plain"> Responsive navigation</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">4.</span><span class="token plain"> Content panes that adapt to screen size</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Can you walk me through the design process, starting with component structure?</span><br></span></code></pre></div></div>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-dall-emidjourney">3. <strong>DALL-E/Midjourney</strong><a href="https://wiseagent.github.io/blogs/blog/crafting-the-perfect-prompt-with-generative-ai-a-step-by-step-guide#3-dall-emidjourney" class="hash-link" aria-label="Direct link to 3-dall-emidjourney" title="Direct link to 3-dall-emidjourney">​</a></h3>
-<p>For visual prompts, focus on specific design elements:</p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Create a modern, minimalist website mock-up with:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Clean navigation bar at top</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Hero section with centred content</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Two-column layout below</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Style: Material Design, blue and white color scheme</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">View: Desktop version</span><br></span></code></pre></div></div>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-bard">4. <strong>Bard</strong><a href="https://wiseagent.github.io/blogs/blog/crafting-the-perfect-prompt-with-generative-ai-a-step-by-step-guide#4-bard" class="hash-link" aria-label="Direct link to 4-bard" title="Direct link to 4-bard">​</a></h3>
-<p>Google's Bard responds well to structured, detailed prompts:</p>
-<div class="language-markdown codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-markdown codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Technical Design Request:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Project: Responsive Website</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Stack: React + Bootstrap</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Requirements:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">1.</span><span class="token plain"> Mobile-first approach</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">2.</span><span class="token plain"> Responsive navigation</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">3.</span><span class="token plain"> Adaptive content layout</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">4.</span><span class="token plain"> Performance optimization</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Please provide:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">1.</span><span class="token plain"> Technical architecture</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">2.</span><span class="token plain"> Component hierarchy</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">3.</span><span class="token plain"> Responsive breakpoints</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">4.</span><span class="token plain"> Implementation guidelines</span><br></span></code></pre></div></div>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-gemini">5. <strong>Gemini</strong><a href="https://wiseagent.github.io/blogs/blog/crafting-the-perfect-prompt-with-generative-ai-a-step-by-step-guide#5-gemini" class="hash-link" aria-label="Direct link to 5-gemini" title="Direct link to 5-gemini">​</a></h3>
-<p>For Gemini's multimodal capabilities:</p>
-<div class="language-markdown codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-markdown codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Design Task: Responsive Website Layout</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Components Required:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">1.</span><span class="token plain"> Navigation bar (responsive)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">2.</span><span class="token plain"> Hero section</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">3.</span><span class="token plain"> Content area with dynamic layout</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Technical Specifications:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Framework: React</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Styling: Bootstrap</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Responsive Design Requirements:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Mobile: Single column, hamburger menu</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Tablet: Two columns, collapsible nav</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Desktop: Three columns, expanded nav</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Deliverables Needed:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">1.</span><span class="token plain"> Visual wireframes</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">2.</span><span class="token plain"> Component structure</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">3.</span><span class="token plain"> Responsive strategy</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">4.</span><span class="token plain"> Code examples</span><br></span></code></pre></div></div>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="example-prompts-for-a-responsive-website">Example Prompts for a Responsive Website<a href="https://wiseagent.github.io/blogs/blog/crafting-the-perfect-prompt-with-generative-ai-a-step-by-step-guide#example-prompts-for-a-responsive-website" class="hash-link" aria-label="Direct link to Example Prompts for a Responsive Website" title="Direct link to Example Prompts for a Responsive Website">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="platform-agnostic-prompt">Platform-Agnostic Prompt<a href="https://wiseagent.github.io/blogs/blog/crafting-the-perfect-prompt-with-generative-ai-a-step-by-step-guide#platform-agnostic-prompt" class="hash-link" aria-label="Direct link to Platform-Agnostic Prompt" title="Direct link to Platform-Agnostic Prompt">​</a></h3>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Build a mobile-first responsive website with:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Summary Pane: Positioned at the top, blank with placeholder content.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Navigation Pane: Adapts across screen sizes (dropdown on small, collapsed on medium, expanded on large) using `webconfig.yaml`.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Content Pane: Two resizable columns (large screens), two stacked rows (medium/small).</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Styling: Use Bootstrap.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Framework: React, Angular, or Vue.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- No Scrollbars: Ensure layout fits within viewport dimensions.</span><br></span></code></pre></div></div>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="best-practices-for-prompt-engineering">Best Practices for Prompt Engineering<a href="https://wiseagent.github.io/blogs/blog/crafting-the-perfect-prompt-with-generative-ai-a-step-by-step-guide#best-practices-for-prompt-engineering" class="hash-link" aria-label="Direct link to Best Practices for Prompt Engineering" title="Direct link to Best Practices for Prompt Engineering">​</a></h2>
-<ol>
-<li>
-<p><strong>Start Broad, Then Refine</strong></p>
-<ul>
-<li>Begin with core requirements</li>
-<li>Add details iteratively</li>
-<li>Use feedback to adjust</li>
-</ul>
-</li>
-<li>
-<p><strong>Structure Your Prompts</strong></p>
-<ul>
-<li>Clear sections</li>
-<li>Bullet points or numbered lists</li>
-<li>Hierarchical information</li>
-</ul>
-</li>
-<li>
-<p><strong>Provide Context</strong></p>
-<ul>
-<li>Target audience</li>
-<li>Technical constraints</li>
-<li>Design preferences</li>
-</ul>
-</li>
-<li>
-<p><strong>Include Success Criteria</strong></p>
-<ul>
-<li>Expected deliverables</li>
-<li>Quality requirements</li>
-<li>Performance metrics</li>
-</ul>
-</li>
-<li>
-<p><strong>Enable Iteration</strong></p>
-<ul>
-<li>Request specific elements</li>
-<li>Allow for clarification</li>
-<li>Build on previous responses</li>
-</ul>
-</li>
-</ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="common-pitfalls-to-avoid">Common Pitfalls to Avoid<a href="https://wiseagent.github.io/blogs/blog/crafting-the-perfect-prompt-with-generative-ai-a-step-by-step-guide#common-pitfalls-to-avoid" class="hash-link" aria-label="Direct link to Common Pitfalls to Avoid" title="Direct link to Common Pitfalls to Avoid">​</a></h2>
-<ol>
-<li>
-<p><strong>Vague Requirements</strong></p>
-<ul>
-<li>Too broad or undefined</li>
-<li>Missing technical context</li>
-<li>Unclear objectives</li>
-</ul>
-</li>
-<li>
-<p><strong>Information Overload</strong></p>
-<ul>
-<li>Too many requirements at once</li>
-<li>Conflicting instructions</li>
-<li>Excessive constraints</li>
-</ul>
-</li>
-<li>
-<p><strong>Poor Structure</strong></p>
-<ul>
-<li>Disorganized information</li>
-<li>Mixed requirements</li>
-<li>Unclear priorities</li>
-</ul>
-</li>
-</ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a href="https://wiseagent.github.io/blogs/blog/crafting-the-perfect-prompt-with-generative-ai-a-step-by-step-guide#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
-<p>Effective prompt engineering is both an art and a science. By understanding your target AI platform and following structured approaches, you can create prompts that consistently generate high-quality, relevant outputs.</p>
-<p>Remember:</p>
-<ul>
-<li>Start with clear objectives</li>
-<li>Structure your prompts logically</li>
-<li>Provide relevant context</li>
-<li>Enable iterative refinement</li>
-<li>Learn from the responses</li>
-</ul>
-<p><em>What techniques do you use for crafting effective prompts? Share your experiences and tips in the comments below.</em></p>]]></content>
-        <author>
-            <name>WISeAgent</name>
-            <uri>https://github.com/WISeAgent</uri>
-        </author>
-        <category label="AI" term="AI"/>
-        <category label="Prompt Engineering" term="Prompt Engineering"/>
-        <category label="Generative AI" term="Generative AI"/>
     </entry>
 </feed>
