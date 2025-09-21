@@ -47,6 +47,6 @@ The companies building MCP-compatible tools today are positioning themselves for
 
 **Bottom line:** We just moved from "AI that talks" to "AI that acts" – and the standard is open for everyone to build on.
 
-🔗 Ready to explore MCP for your projects? Full technical guide 👉[here](https://wiseagent.github.io/blogs/docs/GenAI/GithubCopilotAIApplications/mcp_guide)
+🔗 Ready to explore MCP for your projects? Full technical guide 👉[Model Context Protocol Guide](https://wiseagent.github.io/blogs/docs/GenAI/GithubCopilotAIApplications/mcp_guide)
 
 What's the first system you'd want to connect your AI to? 👇
