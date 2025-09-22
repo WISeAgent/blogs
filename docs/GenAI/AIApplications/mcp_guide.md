@@ -263,7 +263,7 @@ MCP is positioned to become foundational infrastructure for AI applications, sim
 - [GitHub Repository](https://github.com/modelcontextprotocol) - Open source implementations and examples
 - [Anthropic's Announcement](https://www.anthropic.com/news/model-context-protocol) - Original introduction and vision
 
-## Getting Started with MCP
+## How to Get Started with MCP
 1. Try MCP with Claude Desktop to see it in action
 2. Explore existing community servers for inspiration  
 3. Build a simple server for your own use case
