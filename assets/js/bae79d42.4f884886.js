@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[8493],{40380:e=>{e.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"Generative AI","slug":"/category/genai","permalink":"/blogs/docs/category/genai","sidebar":"WISeAgentSidebar","navigation":{"next":{"title":"MCP Complete Guide","permalink":"/blogs/docs/GenAI/AIApplications/mcp-guide"}}}}')}}]);
